@@ -1,0 +1,55 @@
+{
+  "expo": {
+    "name": "PujaSetu",
+    "slug": "pujasetu",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "scheme": "pujasetu",
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#FF8C00"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.pujasetu.app",
+      "infoPlist": {
+        "NSLocationWhenInUseUsageDescription": "PujaSetu uses your location to find nearby pandits and naus.",
+        "NSCameraUsageDescription": "Upload profile and document photos.",
+        "NSPhotoLibraryUsageDescription": "Select photos for your profile."
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#FF8C00",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png"
+      },
+      "package": "com.pujasetu.app",
+      "permissions": [
+        "ACCESS_FINE_LOCATION",
+        "ACCESS_COARSE_LOCATION",
+        "CAMERA",
+        "RECEIVE_BOOT_COMPLETED"
+      ]
+    },
+    "plugins": [
+      "expo-location",
+      "expo-image-picker",
+      [
+        "expo-notifications",
+        {
+          "icon": "./assets/icon.png",
+          "color": "#FF8C00"
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "your-eas-project-id"
+      }
+    }
+  }
+}

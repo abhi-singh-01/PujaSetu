@@ -1,0 +1,29 @@
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Environment & secrets
+.env
+**/.env
+backend/.env
+mobile/.env
+
+# Build / cache
+.expo/
+**/.expo/
+dist/
+build/
+*.log
+.DS_Store
+coverage/
+.idea/
+.vscode/
+mobile/.expo-test-bundle/
+
+# Graphify local-only
+graphify-out/manifest.json
+graphify-out/cost.json
+graphify-out/cache/
+
+# OS
+Thumbs.db

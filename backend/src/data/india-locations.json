@@ -1,0 +1,6215 @@
+{
+  "country": "India",
+  "states": [
+    {
+      "code": "ANDHRA_PRA",
+      "name": "Andhra Pradesh",
+      "districts": [
+        {
+          "code": "ANANTAPUR",
+          "name": "Anantapur",
+          "cities": [
+            "Anantapur City",
+            "Anantapur Town",
+            "Anantapur Rural"
+          ]
+        },
+        {
+          "code": "CHITTOOR",
+          "name": "Chittoor",
+          "cities": [
+            "Chittoor City",
+            "Chittoor Town",
+            "Chittoor Rural"
+          ]
+        },
+        {
+          "code": "EAST_GODAVAR",
+          "name": "East Godavari",
+          "cities": [
+            "East Godavari City",
+            "East Godavari Town",
+            "East Godavari Rural"
+          ]
+        },
+        {
+          "code": "GUNTUR",
+          "name": "Guntur",
+          "cities": [
+            "Guntur City",
+            "Guntur Town",
+            "Guntur Rural"
+          ]
+        },
+        {
+          "code": "KRISHNA",
+          "name": "Krishna",
+          "cities": [
+            "Krishna City",
+            "Krishna Town",
+            "Krishna Rural"
+          ]
+        },
+        {
+          "code": "KURNOOL",
+          "name": "Kurnool",
+          "cities": [
+            "Kurnool City",
+            "Kurnool Town",
+            "Kurnool Rural"
+          ]
+        },
+        {
+          "code": "NELLORE",
+          "name": "Nellore",
+          "cities": [
+            "Nellore City",
+            "Nellore Town",
+            "Nellore Rural"
+          ]
+        },
+        {
+          "code": "PRAKASAM",
+          "name": "Prakasam",
+          "cities": [
+            "Prakasam City",
+            "Prakasam Town",
+            "Prakasam Rural"
+          ]
+        },
+        {
+          "code": "SRIKAKULAM",
+          "name": "Srikakulam",
+          "cities": [
+            "Srikakulam City",
+            "Srikakulam Town",
+            "Srikakulam Rural"
+          ]
+        },
+        {
+          "code": "VISAKHAPATNA",
+          "name": "Visakhapatnam",
+          "cities": [
+            "Visakhapatnam City",
+            "Visakhapatnam Town",
+            "Visakhapatnam Rural"
+          ]
+        },
+        {
+          "code": "VIZIANAGARAM",
+          "name": "Vizianagaram",
+          "cities": [
+            "Vizianagaram City",
+            "Vizianagaram Town",
+            "Vizianagaram Rural"
+          ]
+        },
+        {
+          "code": "WEST_GODAVAR",
+          "name": "West Godavari",
+          "cities": [
+            "West Godavari City",
+            "West Godavari Town",
+            "West Godavari Rural"
+          ]
+        },
+        {
+          "code": "YSR_KADAPA",
+          "name": "YSR Kadapa",
+          "cities": [
+            "YSR Kadapa City",
+            "YSR Kadapa Town",
+            "YSR Kadapa Rural"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "ARUNACHAL_",
+      "name": "Arunachal Pradesh",
+      "districts": [
+        {
+          "code": "TAWANG",
+          "name": "Tawang",
+          "cities": [
+            "Tawang City",
+            "Tawang Town",
+            "Tawang Rural"
+          ]
+        },
+        {
+          "code": "WEST_KAMENG",
+          "name": "West Kameng",
+          "cities": [
+            "West Kameng City",
+            "West Kameng Town",
+            "West Kameng Rural"
+          ]
+        },
+        {
+          "code": "EAST_KAMENG",
+          "name": "East Kameng",
+          "cities": [
+            "East Kameng City",
+            "East Kameng Town",
+            "East Kameng Rural"
+          ]
+        },
+        {
+          "code": "PAPUM_PARE",
+          "name": "Papum Pare",
+          "cities": [
+            "Papum Pare City",
+            "Papum Pare Town",
+            "Papum Pare Rural"
+          ]
+        },
+        {
+          "code": "LOWER_SUBANS",
+          "name": "Lower Subansiri",
+          "cities": [
+            "Lower Subansiri City",
+            "Lower Subansiri Town",
+            "Lower Subansiri Rural"
+          ]
+        },
+        {
+          "code": "UPPER_SUBANS",
+          "name": "Upper Subansiri",
+          "cities": [
+            "Upper Subansiri City",
+            "Upper Subansiri Town",
+            "Upper Subansiri Rural"
+          ]
+        },
+        {
+          "code": "WEST_SIANG",
+          "name": "West Siang",
+          "cities": [
+            "West Siang City",
+            "West Siang Town",
+            "West Siang Rural"
+          ]
+        },
+        {
+          "code": "EAST_SIANG",
+          "name": "East Siang",
+          "cities": [
+            "East Siang City",
+            "East Siang Town",
+            "East Siang Rural"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "ASSAM",
+      "name": "Assam",
+      "districts": [
+        {
+          "code": "BAKSA",
+          "name": "Baksa",
+          "cities": [
+            "Baksa City",
+            "Baksa Town",
+            "Baksa Rural"
+          ]
+        },
+        {
+          "code": "BARPETA",
+          "name": "Barpeta",
+          "cities": [
+            "Barpeta City",
+            "Barpeta Town",
+            "Barpeta Rural"
+          ]
+        },
+        {
+          "code": "BONGAIGAON",
+          "name": "Bongaigaon",
+          "cities": [
+            "Bongaigaon City",
+            "Bongaigaon Town",
+            "Bongaigaon Rural"
+          ]
+        },
+        {
+          "code": "CACHAR",
+          "name": "Cachar",
+          "cities": [
+            "Cachar City",
+            "Cachar Town",
+            "Cachar Rural"
+          ]
+        },
+        {
+          "code": "DARRANG",
+          "name": "Darrang",
+          "cities": [
+            "Darrang City",
+            "Darrang Town",
+            "Darrang Rural"
+          ]
+        },
+        {
+          "code": "DHEMAJI",
+          "name": "Dhemaji",
+          "cities": [
+            "Dhemaji City",
+            "Dhemaji Town",
+            "Dhemaji Rural"
+          ]
+        },
+        {
+          "code": "DHUBRI",
+          "name": "Dhubri",
+          "cities": [
+            "Dhubri City",
+            "Dhubri Town",
+            "Dhubri Rural"
+          ]
+        },
+        {
+          "code": "DIBRUGARH",
+          "name": "Dibrugarh",
+          "cities": [
+            "Dibrugarh City",
+            "Dibrugarh Town",
+            "Dibrugarh Rural"
+          ]
+        },
+        {
+          "code": "GOALPARA",
+          "name": "Goalpara",
+          "cities": [
+            "Goalpara City",
+            "Goalpara Town",
+            "Goalpara Rural"
+          ]
+        },
+        {
+          "code": "GOLAGHAT",
+          "name": "Golaghat",
+          "cities": [
+            "Golaghat City",
+            "Golaghat Town",
+            "Golaghat Rural"
+          ]
+        },
+        {
+          "code": "HAILAKANDI",
+          "name": "Hailakandi",
+          "cities": [
+            "Hailakandi City",
+            "Hailakandi Town",
+            "Hailakandi Rural"
+          ]
+        },
+        {
+          "code": "JORHAT",
+          "name": "Jorhat",
+          "cities": [
+            "Jorhat City",
+            "Jorhat Town",
+            "Jorhat Rural"
+          ]
+        },
+        {
+          "code": "KAMRUP",
+          "name": "Kamrup",
+          "cities": [
+            "Kamrup City",
+            "Kamrup Town",
+            "Kamrup Rural"
+          ]
+        },
+        {
+          "code": "KARIMGANJ",
+          "name": "Karimganj",
+          "cities": [
+            "Karimganj City",
+            "Karimganj Town",
+            "Karimganj Rural"
+          ]
+        },
+        {
+          "code": "NAGAON",
+          "name": "Nagaon",
+          "cities": [
+            "Nagaon City",
+            "Nagaon Town",
+            "Nagaon Rural"
+          ]
+        },
+        {
+          "code": "SIVASAGAR",
+          "name": "Sivasagar",
+          "cities": [
+            "Sivasagar City",
+            "Sivasagar Town",
+            "Sivasagar Rural"
+          ]
+        },
+        {
+          "code": "SONITPUR",
+          "name": "Sonitpur",
+          "cities": [
+            "Sonitpur City",
+            "Sonitpur Town",
+            "Sonitpur Rural"
+          ]
+        },
+        {
+          "code": "TINSUKIA",
+          "name": "Tinsukia",
+          "cities": [
+            "Tinsukia City",
+            "Tinsukia Town",
+            "Tinsukia Rural"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "BIHAR",
+      "name": "Bihar",
+      "districts": [
+        {
+          "code": "ARARIA",
+          "name": "Araria",
+          "cities": [
+            "Araria City",
+            "Araria Town",
+            "Araria Rural"
+          ]
+        },
+        {
+          "code": "ARWAL",
+          "name": "Arwal",
+          "cities": [
+            "Arwal City",
+            "Arwal Town",
+            "Arwal Rural"
+          ]
+        },
+        {
+          "code": "AURANGABAD",
+          "name": "Aurangabad",
+          "cities": [
+            "Aurangabad City",
+            "Aurangabad Town",
+            "Aurangabad Rural"
+          ]
+        },
+        {
+          "code": "BANKA",
+          "name": "Banka",
+          "cities": [
+            "Banka City",
+            "Banka Town",
+            "Banka Rural"
+          ]
+        },
+        {
+          "code": "BEGUSARAI",
+          "name": "Begusarai",
+          "cities": [
+            "Begusarai City",
+            "Begusarai Town",
+            "Begusarai Rural"
+          ]
+        },
+        {
+          "code": "BHAGALPUR",
+          "name": "Bhagalpur",
+          "cities": [
+            "Bhagalpur City",
+            "Bhagalpur Town",
+            "Bhagalpur Rural"
+          ]
+        },
+        {
+          "code": "BHOJPUR",
+          "name": "Bhojpur",
+          "cities": [
+            "Bhojpur City",
+            "Bhojpur Town",
+            "Bhojpur Rural"
+          ]
+        },
+        {
+          "code": "BUXAR",
+          "name": "Buxar",
+          "cities": [
+            "Buxar City",
+            "Buxar Town",
+            "Buxar Rural"
+          ]
+        },
+        {
+          "code": "DARBHANGA",
+          "name": "Darbhanga",
+          "cities": [
+            "Darbhanga City",
+            "Darbhanga Town",
+            "Darbhanga Rural"
+          ]
+        },
+        {
+          "code": "GAYA",
+          "name": "Gaya",
+          "cities": [
+            "Gaya City",
+            "Gaya Town",
+            "Gaya Rural"
+          ]
+        },
+        {
+          "code": "GOPALGANJ",
+          "name": "Gopalganj",
+          "cities": [
+            "Gopalganj City",
+            "Gopalganj Town",
+            "Gopalganj Rural"
+          ]
+        },
+        {
+          "code": "JAMUI",
+          "name": "Jamui",
+          "cities": [
+            "Jamui City",
+            "Jamui Town",
+            "Jamui Rural"
+          ]
+        },
+        {
+          "code": "JEHANABAD",
+          "name": "Jehanabad",
+          "cities": [
+            "Jehanabad City",
+            "Jehanabad Town",
+            "Jehanabad Rural"
+          ]
+        },
+        {
+          "code": "KAIMUR",
+          "name": "Kaimur",
+          "cities": [
+            "Kaimur City",
+            "Kaimur Town",
+            "Kaimur Rural"
+          ]
+        },
+        {
+          "code": "KATIHAR",
+          "name": "Katihar",
+          "cities": [
+            "Katihar City",
+            "Katihar Town",
+            "Katihar Rural"
+          ]
+        },
+        {
+          "code": "KHAGARIA",
+          "name": "Khagaria",
+          "cities": [
+            "Khagaria City",
+            "Khagaria Town",
+            "Khagaria Rural"
+          ]
+        },
+        {
+          "code": "KISHANGANJ",
+          "name": "Kishanganj",
+          "cities": [
+            "Kishanganj City",
+            "Kishanganj Town",
+            "Kishanganj Rural"
+          ]
+        },
+        {
+          "code": "LAKHISARAI",
+          "name": "Lakhisarai",
+          "cities": [
+            "Lakhisarai City",
+            "Lakhisarai Town",
+            "Lakhisarai Rural"
+          ]
+        },
+        {
+          "code": "MADHEPURA",
+          "name": "Madhepura",
+          "cities": [
+            "Madhepura City",
+            "Madhepura Town",
+            "Madhepura Rural"
+          ]
+        },
+        {
+          "code": "MADHUBANI",
+          "name": "Madhubani",
+          "cities": [
+            "Madhubani City",
+            "Madhubani Town",
+            "Madhubani Rural"
+          ]
+        },
+        {
+          "code": "MUNGER",
+          "name": "Munger",
+          "cities": [
+            "Munger City",
+            "Munger Town",
+            "Munger Rural"
+          ]
+        },
+        {
+          "code": "MUZAFFARPUR",
+          "name": "Muzaffarpur",
+          "cities": [
+            "Muzaffarpur City",
+            "Muzaffarpur Town",
+            "Muzaffarpur Rural"
+          ]
+        },
+        {
+          "code": "NALANDA",
+          "name": "Nalanda",
+          "cities": [
+            "Nalanda City",
+            "Nalanda Town",
+            "Nalanda Rural"
+          ]
+        },
+        {
+          "code": "NAWADA",
+          "name": "Nawada",
+          "cities": [
+            "Nawada City",
+            "Nawada Town",
+            "Nawada Rural"
+          ]
+        },
+        {
+          "code": "PATNA",
+          "name": "Patna",
+          "cities": [
+            "Patna City",
+            "Patna Town",
+            "Patna Rural"
+          ]
+        },
+        {
+          "code": "PURNIA",
+          "name": "Purnia",
+          "cities": [
+            "Purnia City",
+            "Purnia Town",
+            "Purnia Rural"
+          ]
+        },
+        {
+          "code": "ROHTAS",
+          "name": "Rohtas",
+          "cities": [
+            "Rohtas City",
+            "Rohtas Town",
+            "Rohtas Rural"
+          ]
+        },
+        {
+          "code": "SAHARSA",
+          "name": "Saharsa",
+          "cities": [
+            "Saharsa City",
+            "Saharsa Town",
+            "Saharsa Rural"
+          ]
+        },
+        {
+          "code": "SAMASTIPUR",
+          "name": "Samastipur",
+          "cities": [
+            "Samastipur City",
+            "Samastipur Town",
+            "Samastipur Rural"
+          ]
+        },
+        {
+          "code": "SARAN",
+          "name": "Saran",
+          "cities": [
+            "Saran City",
+            "Saran Town",
+            "Saran Rural"
+          ]
+        },
+        {
+          "code": "SHEIKHPURA",
+          "name": "Sheikhpura",
+          "cities": [
+            "Sheikhpura City",
+            "Sheikhpura Town",
+            "Sheikhpura Rural"
+          ]
+        },
+        {
+          "code": "SHEOHAR",
+          "name": "Sheohar",
+          "cities": [
+            "Sheohar City",
+            "Sheohar Town",
+            "Sheohar Rural"
+          ]
+        },
+        {
+          "code": "SITAMARHI",
+          "name": "Sitamarhi",
+          "cities": [
+            "Sitamarhi City",
+            "Sitamarhi Town",
+            "Sitamarhi Rural"
+          ]
+        },
+        {
+          "code": "SIWAN",
+          "name": "Siwan",
+          "cities": [
+            "Siwan City",
+            "Siwan Town",
+            "Siwan Rural"
+          ]
+        },
+        {
+          "code": "SUPAUL",
+          "name": "Supaul",
+          "cities": [
+            "Supaul City",
+            "Supaul Town",
+            "Supaul Rural"
+          ]
+        },
+        {
+          "code": "VAISHALI",
+          "name": "Vaishali",
+          "cities": [
+            "Vaishali City",
+            "Vaishali Town",
+            "Vaishali Rural"
+          ]
+        },
+        {
+          "code": "WEST_CHAMPAR",
+          "name": "West Champaran",
+          "cities": [
+            "West Champaran City",
+            "West Champaran Town",
+            "West Champaran Rural"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "CHHATTISGA",
+      "name": "Chhattisgarh",
+      "districts": [
+        {
+          "code": "BALOD",
+          "name": "Balod",
+          "cities": [
+            "Balod City",
+            "Balod Town",
+            "Balod Rural"
+          ]
+        },
+        {
+          "code": "BALODA_BAZAR",
+          "name": "Baloda Bazar",
+          "cities": [
+            "Baloda Bazar City",
+            "Baloda Bazar Town",
+            "Baloda Bazar Rural"
+          ]
+        },
+        {
+          "code": "BASTAR",
+          "name": "Bastar",
+          "cities": [
+            "Bastar City",
+            "Bastar Town",
+            "Bastar Rural"
+          ]
+        },
+        {
+          "code": "BEMETARA",
+          "name": "Bemetara",
+          "cities": [
+            "Bemetara City",
+            "Bemetara Town",
+            "Bemetara Rural"
+          ]
+        },
+        {
+          "code": "BILASPUR",
+          "name": "Bilaspur",
+          "cities": [
+            "Bilaspur City",
+            "Bilaspur Town",
+            "Bilaspur Rural"
+          ]
+        },
+        {
+          "code": "DURG",
+          "name": "Durg",
+          "cities": [
+            "Durg City",
+            "Durg Town",
+            "Durg Rural"
+          ]
+        },
+        {
+          "code": "JANJGIR-CHAM",
+          "name": "Janjgir-Champa",
+          "cities": [
+            "Janjgir-Champa City",
+            "Janjgir-Champa Town",
+            "Janjgir-Champa Rural"
+          ]
+        },
+        {
+          "code": "KORBA",
+          "name": "Korba",
+          "cities": [
+            "Korba City",
+            "Korba Town",
+            "Korba Rural"
+          ]
+        },
+        {
+          "code": "MAHASAMUND",
+          "name": "Mahasamund",
+          "cities": [
+            "Mahasamund City",
+            "Mahasamund Town",
+            "Mahasamund Rural"
+          ]
+        },
+        {
+          "code": "RAIPUR",
+          "name": "Raipur",
+          "cities": [
+            "Raipur City",
+            "Raipur Town",
+            "Raipur Rural"
+          ]
+        },
+        {
+          "code": "RAJNANDGAON",
+          "name": "Rajnandgaon",
+          "cities": [
+            "Rajnandgaon City",
+            "Rajnandgaon Town",
+            "Rajnandgaon Rural"
+          ]
+        },
+        {
+          "code": "SURGUJA",
+          "name": "Surguja",
+          "cities": [
+            "Surguja City",
+            "Surguja Town",
+            "Surguja Rural"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "GOA",
+      "name": "Goa",
+      "districts": [
+        {
+          "code": "NORTH_GOA",
+          "name": "North Goa",
+          "cities": [
+            "North Goa City",
+            "North Goa Town",
+            "North Goa Rural"
+          ]
+        },
+        {
+          "code": "SOUTH_GOA",
+          "name": "South Goa",
+          "cities": [
+            "South Goa City",
+            "South Goa Town",
+            "South Goa Rural"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "GUJARAT",
+      "name": "Gujarat",
+      "districts": [
+        {
+          "code": "AHMEDABAD",
+          "name": "Ahmedabad",
+          "cities": [
+            "Ahmedabad City",
+            "Ahmedabad Town",
+            "Ahmedabad Rural"
+          ]
+        },
+        {
+          "code": "AMRELI",
+          "name": "Amreli",
+          "cities": [
+            "Amreli City",
+            "Amreli Town",
+            "Amreli Rural"
+          ]
+        },
+        {
+          "code": "ANAND",
+          "name": "Anand",
+          "cities": [
+            "Anand City",
+            "Anand Town",
+            "Anand Rural"
+          ]
+        },
+        {
+          "code": "ARAVALLI",
+          "name": "Aravalli",
+          "cities": [
+            "Aravalli City",
+            "Aravalli Town",
+            "Aravalli Rural"
+          ]
+        },
+        {
+          "code": "BANASKANTHA",
+          "name": "Banaskantha",
+          "cities": [
+            "Banaskantha City",
+            "Banaskantha Town",
+            "Banaskantha Rural"
+          ]
+        },
+        {
+          "code": "BHARUCH",
+          "name": "Bharuch",
+          "cities": [
+            "Bharuch City",
+            "Bharuch Town",
+            "Bharuch Rural"
+          ]
+        },
+        {
+          "code": "BHAVNAGAR",
+          "name": "Bhavnagar",
+          "cities": [
+            "Bhavnagar City",
+            "Bhavnagar Town",
+            "Bhavnagar Rural"
+          ]
+        },
+        {
+          "code": "BOTAD",
+          "name": "Botad",
+          "cities": [
+            "Botad City",
+            "Botad Town",
+            "Botad Rural"
+          ]
+        },
+        {
+          "code": "CHHOTA_UDAIP",
+          "name": "Chhota Udaipur",
+          "cities": [
+            "Chhota Udaipur City",
+            "Chhota Udaipur Town",
+            "Chhota Udaipur Rural"
+          ]
+        },
+        {
+          "code": "DAHOD",
+          "name": "Dahod",
+          "cities": [
+            "Dahod City",
+            "Dahod Town",
+            "Dahod Rural"
+          ]
+        },
+        {
+          "code": "DANG",
+          "name": "Dang",
+          "cities": [
+            "Dang City",
+            "Dang Town",
+            "Dang Rural"
+          ]
+        },
+        {
+          "code": "DEVBHOOMI_DW",
+          "name": "Devbhoomi Dwarka",
+          "cities": [
+            "Devbhoomi Dwarka City",
+            "Devbhoomi Dwarka Town",
+            "Devbhoomi Dwarka Rural"
+          ]
+        },
+        {
+          "code": "GANDHINAGAR",
+          "name": "Gandhinagar",
+          "cities": [
+            "Gandhinagar City",
+            "Gandhinagar Town",
+            "Gandhinagar Rural"
+          ]
+        },
+        {
+          "code": "GIR_SOMNATH",
+          "name": "Gir Somnath",
+          "cities": [
+            "Gir Somnath City",
+            "Gir Somnath Town",
+            "Gir Somnath Rural"
+          ]
+        },
+        {
+          "code": "JAMNAGAR",
+          "name": "Jamnagar",
+          "cities": [
+            "Jamnagar City",
+            "Jamnagar Town",
+            "Jamnagar Rural"
+          ]
+        },
+        {
+          "code": "JUNAGADH",
+          "name": "Junagadh",
+          "cities": [
+            "Junagadh City",
+            "Junagadh Town",
+            "Junagadh Rural"
+          ]
+        },
+        {
+          "code": "KHEDA",
+          "name": "Kheda",
+          "cities": [
+            "Kheda City",
+            "Kheda Town",
+            "Kheda Rural"
+          ]
+        },
+        {
+          "code": "KUTCH",
+          "name": "Kutch",
+          "cities": [
+            "Kutch City",
+            "Kutch Town",
+            "Kutch Rural"
+          ]
+        },
+        {
+          "code": "MAHISAGAR",
+          "name": "Mahisagar",
+          "cities": [
+            "Mahisagar City",
+            "Mahisagar Town",
+            "Mahisagar Rural"
+          ]
+        },
+        {
+          "code": "MEHSANA",
+          "name": "Mehsana",
+          "cities": [
+            "Mehsana City",
+            "Mehsana Town",
+            "Mehsana Rural"
+          ]
+        },
+        {
+          "code": "MORBI",
+          "name": "Morbi",
+          "cities": [
+            "Morbi City",
+            "Morbi Town",
+            "Morbi Rural"
+          ]
+        },
+        {
+          "code": "NARMADA",
+          "name": "Narmada",
+          "cities": [
+            "Narmada City",
+            "Narmada Town",
+            "Narmada Rural"
+          ]
+        },
+        {
+          "code": "NAVSARI",
+          "name": "Navsari",
+          "cities": [
+            "Navsari City",
+            "Navsari Town",
+            "Navsari Rural"
+          ]
+        },
+        {
+          "code": "PANCHMAHAL",
+          "name": "Panchmahal",
+          "cities": [
+            "Panchmahal City",
+            "Panchmahal Town",
+            "Panchmahal Rural"
+          ]
+        },
+        {
+          "code": "PATAN",
+          "name": "Patan",
+          "cities": [
+            "Patan City",
+            "Patan Town",
+            "Patan Rural"
+          ]
+        },
+        {
+          "code": "PORBANDAR",
+          "name": "Porbandar",
+          "cities": [
+            "Porbandar City",
+            "Porbandar Town",
+            "Porbandar Rural"
+          ]
+        },
+        {
+          "code": "RAJKOT",
+          "name": "Rajkot",
+          "cities": [
+            "Rajkot City",
+            "Rajkot Town",
+            "Rajkot Rural"
+          ]
+        },
+        {
+          "code": "SABARKANTHA",
+          "name": "Sabarkantha",
+          "cities": [
+            "Sabarkantha City",
+            "Sabarkantha Town",
+            "Sabarkantha Rural"
+          ]
+        },
+        {
+          "code": "SURAT",
+          "name": "Surat",
+          "cities": [
+            "Surat City",
+            "Surat Town",
+            "Surat Rural"
+          ]
+        },
+        {
+          "code": "SURENDRANAGA",
+          "name": "Surendranagar",
+          "cities": [
+            "Surendranagar City",
+            "Surendranagar Town",
+            "Surendranagar Rural"
+          ]
+        },
+        {
+          "code": "TAPI",
+          "name": "Tapi",
+          "cities": [
+            "Tapi City",
+            "Tapi Town",
+            "Tapi Rural"
+          ]
+        },
+        {
+          "code": "VADODARA",
+          "name": "Vadodara",
+          "cities": [
+            "Vadodara City",
+            "Vadodara Town",
+            "Vadodara Rural"
+          ]
+        },
+        {
+          "code": "VALSAD",
+          "name": "Valsad",
+          "cities": [
+            "Valsad City",
+            "Valsad Town",
+            "Valsad Rural"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "HARYANA",
+      "name": "Haryana",
+      "districts": [
+        {
+          "code": "AMBALA",
+          "name": "Ambala",
+          "cities": [
+            "Ambala City",
+            "Ambala Town",
+            "Ambala Rural"
+          ]
+        },
+        {
+          "code": "BHIWANI",
+          "name": "Bhiwani",
+          "cities": [
+            "Bhiwani City",
+            "Bhiwani Town",
+            "Bhiwani Rural"
+          ]
+        },
+        {
+          "code": "FARIDABAD",
+          "name": "Faridabad",
+          "cities": [
+            "Faridabad City",
+            "Faridabad Town",
+            "Faridabad Rural"
+          ]
+        },
+        {
+          "code": "FATEHABAD",
+          "name": "Fatehabad",
+          "cities": [
+            "Fatehabad City",
+            "Fatehabad Town",
+            "Fatehabad Rural"
+          ]
+        },
+        {
+          "code": "GURUGRAM",
+          "name": "Gurugram",
+          "cities": [
+            "Gurugram City",
+            "Gurugram Town",
+            "Gurugram Rural"
+          ]
+        },
+        {
+          "code": "HISAR",
+          "name": "Hisar",
+          "cities": [
+            "Hisar City",
+            "Hisar Town",
+            "Hisar Rural"
+          ]
+        },
+        {
+          "code": "JHAJJAR",
+          "name": "Jhajjar",
+          "cities": [
+            "Jhajjar City",
+            "Jhajjar Town",
+            "Jhajjar Rural"
+          ]
+        },
+        {
+          "code": "JIND",
+          "name": "Jind",
+          "cities": [
+            "Jind City",
+            "Jind Town",
+            "Jind Rural"
+          ]
+        },
+        {
+          "code": "KAITHAL",
+          "name": "Kaithal",
+          "cities": [
+            "Kaithal City",
+            "Kaithal Town",
+            "Kaithal Rural"
+          ]
+        },
+        {
+          "code": "KARNAL",
+          "name": "Karnal",
+          "cities": [
+            "Karnal City",
+            "Karnal Town",
+            "Karnal Rural"
+          ]
+        },
+        {
+          "code": "KURUKSHETRA",
+          "name": "Kurukshetra",
+          "cities": [
+            "Kurukshetra City",
+            "Kurukshetra Town",
+            "Kurukshetra Rural"
+          ]
+        },
+        {
+          "code": "MAHENDRAGARH",
+          "name": "Mahendragarh",
+          "cities": [
+            "Mahendragarh City",
+            "Mahendragarh Town",
+            "Mahendragarh Rural"
+          ]
+        },
+        {
+          "code": "NUH",
+          "name": "Nuh",
+          "cities": [
+            "Nuh City",
+            "Nuh Town",
+            "Nuh Rural"
+          ]
+        },
+        {
+          "code": "PALWAL",
+          "name": "Palwal",
+          "cities": [
+            "Palwal City",
+            "Palwal Town",
+            "Palwal Rural"
+          ]
+        },
+        {
+          "code": "PANCHKULA",
+          "name": "Panchkula",
+          "cities": [
+            "Panchkula City",
+            "Panchkula Town",
+            "Panchkula Rural"
+          ]
+        },
+        {
+          "code": "PANIPAT",
+          "name": "Panipat",
+          "cities": [
+            "Panipat City",
+            "Panipat Town",
+            "Panipat Rural"
+          ]
+        },
+        {
+          "code": "REWARI",
+          "name": "Rewari",
+          "cities": [
+            "Rewari City",
+            "Rewari Town",
+            "Rewari Rural"
+          ]
+        },
+        {
+          "code": "ROHTAK",
+          "name": "Rohtak",
+          "cities": [
+            "Rohtak City",
+            "Rohtak Town",
+            "Rohtak Rural"
+          ]
+        },
+        {
+          "code": "SIRSA",
+          "name": "Sirsa",
+          "cities": [
+            "Sirsa City",
+            "Sirsa Town",
+            "Sirsa Rural"
+          ]
+        },
+        {
+          "code": "SONIPAT",
+          "name": "Sonipat",
+          "cities": [
+            "Sonipat City",
+            "Sonipat Town",
+            "Sonipat Rural"
+          ]
+        },
+        {
+          "code": "YAMUNANAGAR",
+          "name": "Yamunanagar",
+          "cities": [
+            "Yamunanagar City",
+            "Yamunanagar Town",
+            "Yamunanagar Rural"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "HIMACHAL_P",
+      "name": "Himachal Pradesh",
+      "districts": [
+        {
+          "code": "BILASPUR",
+          "name": "Bilaspur",
+          "cities": [
+            "Bilaspur City",
+            "Bilaspur Town",
+            "Bilaspur Rural"
+          ]
+        },
+        {
+          "code": "CHAMBA",
+          "name": "Chamba",
+          "cities": [
+            "Chamba City",
+            "Chamba Town",
+            "Chamba Rural"
+          ]
+        },
+        {
+          "code": "HAMIRPUR",
+          "name": "Hamirpur",
+          "cities": [
+            "Hamirpur City",
+            "Hamirpur Town",
+            "Hamirpur Rural"
+          ]
+        },
+        {
+          "code": "KANGRA",
+          "name": "Kangra",
+          "cities": [
+            "Kangra City",
+            "Kangra Town",
+            "Kangra Rural"
+          ]
+        },
+        {
+          "code": "KINNAUR",
+          "name": "Kinnaur",
+          "cities": [
+            "Kinnaur City",
+            "Kinnaur Town",
+            "Kinnaur Rural"
+          ]
+        },
+        {
+          "code": "KULLU",
+          "name": "Kullu",
+          "cities": [
+            "Kullu City",
+            "Kullu Town",
+            "Kullu Rural"
+          ]
+        },
+        {
+          "code": "MANDI",
+          "name": "Mandi",
+          "cities": [
+            "Mandi City",
+            "Mandi Town",
+            "Mandi Rural"
+          ]
+        },
+        {
+          "code": "SHIMLA",
+          "name": "Shimla",
+          "cities": [
+            "Shimla City",
+            "Shimla Town",
+            "Shimla Rural"
+          ]
+        },
+        {
+          "code": "SIRMAUR",
+          "name": "Sirmaur",
+          "cities": [
+            "Sirmaur City",
+            "Sirmaur Town",
+            "Sirmaur Rural"
+          ]
+        },
+        {
+          "code": "SOLAN",
+          "name": "Solan",
+          "cities": [
+            "Solan City",
+            "Solan Town",
+            "Solan Rural"
+          ]
+        },
+        {
+          "code": "UNA",
+          "name": "Una",
+          "cities": [
+            "Una City",
+            "Una Town",
+            "Una Rural"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "JHARKHAND",
+      "name": "Jharkhand",
+      "districts": [
+        {
+          "code": "BOKARO",
+          "name": "Bokaro",
+          "cities": [
+            "Bokaro City",
+            "Bokaro Town",
+            "Bokaro Rural"
+          ]
+        },
+        {
+          "code": "CHATRA",
+          "name": "Chatra",
+          "cities": [
+            "Chatra City",
+            "Chatra Town",
+            "Chatra Rural"
+          ]
+        },
+        {
+          "code": "DEOGHAR",
+          "name": "Deoghar",
+          "cities": [
+            "Deoghar City",
+            "Deoghar Town",
+            "Deoghar Rural"
+          ]
+        },
+        {
+          "code": "DHANBAD",
+          "name": "Dhanbad",
+          "cities": [
+            "Dhanbad City",
+            "Dhanbad Town",
+            "Dhanbad Rural"
+          ]
+        },
+        {
+          "code": "DUMKA",
+          "name": "Dumka",
+          "cities": [
+            "Dumka City",
+            "Dumka Town",
+            "Dumka Rural"
+          ]
+        },
+        {
+          "code": "EAST_SINGHBH",
+          "name": "East Singhbhum",
+          "cities": [
+            "East Singhbhum City",
+            "East Singhbhum Town",
+            "East Singhbhum Rural"
+          ]
+        },
+        {
+          "code": "GARHWA",
+          "name": "Garhwa",
+          "cities": [
+            "Garhwa City",
+            "Garhwa Town",
+            "Garhwa Rural"
+          ]
+        },
+        {
+          "code": "GIRIDIH",
+          "name": "Giridih",
+          "cities": [
+            "Giridih City",
+            "Giridih Town",
+            "Giridih Rural"
+          ]
+        },
+        {
+          "code": "GODDA",
+          "name": "Godda",
+          "cities": [
+            "Godda City",
+            "Godda Town",
+            "Godda Rural"
+          ]
+        },
+        {
+          "code": "GUMLA",
+          "name": "Gumla",
+          "cities": [
+            "Gumla City",
+            "Gumla Town",
+            "Gumla Rural"
+          ]
+        },
+        {
+          "code": "HAZARIBAGH",
+          "name": "Hazaribagh",
+          "cities": [
+            "Hazaribagh City",
+            "Hazaribagh Town",
+            "Hazaribagh Rural"
+          ]
+        },
+        {
+          "code": "JAMTARA",
+          "name": "Jamtara",
+          "cities": [
+            "Jamtara City",
+            "Jamtara Town",
+            "Jamtara Rural"
+          ]
+        },
+        {
+          "code": "KHUNTI",
+          "name": "Khunti",
+          "cities": [
+            "Khunti City",
+            "Khunti Town",
+            "Khunti Rural"
+          ]
+        },
+        {
+          "code": "KODERMA",
+          "name": "Koderma",
+          "cities": [
+            "Koderma City",
+            "Koderma Town",
+            "Koderma Rural"
+          ]
+        },
+        {
+          "code": "LATEHAR",
+          "name": "Latehar",
+          "cities": [
+            "Latehar City",
+            "Latehar Town",
+            "Latehar Rural"
+          ]
+        },
+        {
+          "code": "LOHARDAGA",
+          "name": "Lohardaga",
+          "cities": [
+            "Lohardaga City",
+            "Lohardaga Town",
+            "Lohardaga Rural"
+          ]
+        },
+        {
+          "code": "PAKUR",
+          "name": "Pakur",
+          "cities": [
+            "Pakur City",
+            "Pakur Town",
+            "Pakur Rural"
+          ]
+        },
+        {
+          "code": "PALAMU",
+          "name": "Palamu",
+          "cities": [
+            "Palamu City",
+            "Palamu Town",
+            "Palamu Rural"
+          ]
+        },
+        {
+          "code": "RAMGARH",
+          "name": "Ramgarh",
+          "cities": [
+            "Ramgarh City",
+            "Ramgarh Town",
+            "Ramgarh Rural"
+          ]
+        },
+        {
+          "code": "RANCHI",
+          "name": "Ranchi",
+          "cities": [
+            "Ranchi City",
+            "Ranchi Town",
+            "Ranchi Rural"
+          ]
+        },
+        {
+          "code": "SAHEBGANJ",
+          "name": "Sahebganj",
+          "cities": [
+            "Sahebganj City",
+            "Sahebganj Town",
+            "Sahebganj Rural"
+          ]
+        },
+        {
+          "code": "SERAIKELA_KH",
+          "name": "Seraikela Kharsawan",
+          "cities": [
+            "Seraikela Kharsawan City",
+            "Seraikela Kharsawan Town",
+            "Seraikela Kharsawan Rural"
+          ]
+        },
+        {
+          "code": "SIMDEGA",
+          "name": "Simdega",
+          "cities": [
+            "Simdega City",
+            "Simdega Town",
+            "Simdega Rural"
+          ]
+        },
+        {
+          "code": "WEST_SINGHBH",
+          "name": "West Singhbhum",
+          "cities": [
+            "West Singhbhum City",
+            "West Singhbhum Town",
+            "West Singhbhum Rural"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "KARNATAKA",
+      "name": "Karnataka",
+      "districts": [
+        {
+          "code": "BAGALKOT",
+          "name": "Bagalkot",
+          "cities": [
+            "Bagalkot City",
+            "Bagalkot Town",
+            "Bagalkot Rural"
+          ]
+        },
+        {
+          "code": "BALLARI",
+          "name": "Ballari",
+          "cities": [
+            "Ballari City",
+            "Ballari Town",
+            "Ballari Rural"
+          ]
+        },
+        {
+          "code": "BELAGAVI",
+          "name": "Belagavi",
+          "cities": [
+            "Belagavi City",
+            "Belagavi Town",
+            "Belagavi Rural"
+          ]
+        },
+        {
+          "code": "BENGALURU_RU",
+          "name": "Bengaluru Rural",
+          "cities": [
+            "Bengaluru Rural City",
+            "Bengaluru Rural Town",
+            "Bengaluru Rural Rural"
+          ]
+        },
+        {
+          "code": "BENGALURU_UR",
+          "name": "Bengaluru Urban",
+          "cities": [
+            "Bengaluru Urban City",
+            "Bengaluru Urban Town",
+            "Bengaluru Urban Rural"
+          ]
+        },
+        {
+          "code": "BIDAR",
+          "name": "Bidar",
+          "cities": [
+            "Bidar City",
+            "Bidar Town",
+            "Bidar Rural"
+          ]
+        },
+        {
+          "code": "CHAMARAJANAG",
+          "name": "Chamarajanagar",
+          "cities": [
+            "Chamarajanagar City",
+            "Chamarajanagar Town",
+            "Chamarajanagar Rural"
+          ]
+        },
+        {
+          "code": "CHIKKABALLAP",
+          "name": "Chikkaballapur",
+          "cities": [
+            "Chikkaballapur City",
+            "Chikkaballapur Town",
+            "Chikkaballapur Rural"
+          ]
+        },
+        {
+          "code": "CHIKKAMAGALU",
+          "name": "Chikkamagaluru",
+          "cities": [
+            "Chikkamagaluru City",
+            "Chikkamagaluru Town",
+            "Chikkamagaluru Rural"
+          ]
+        },
+        {
+          "code": "CHITRADURGA",
+          "name": "Chitradurga",
+          "cities": [
+            "Chitradurga City",
+            "Chitradurga Town",
+            "Chitradurga Rural"
+          ]
+        },
+        {
+          "code": "DAKSHINA_KAN",
+          "name": "Dakshina Kannada",
+          "cities": [
+            "Dakshina Kannada City",
+            "Dakshina Kannada Town",
+            "Dakshina Kannada Rural"
+          ]
+        },
+        {
+          "code": "DAVANAGERE",
+          "name": "Davanagere",
+          "cities": [
+            "Davanagere City",
+            "Davanagere Town",
+            "Davanagere Rural"
+          ]
+        },
+        {
+          "code": "DHARWAD",
+          "name": "Dharwad",
+          "cities": [
+            "Dharwad City",
+            "Dharwad Town",
+            "Dharwad Rural"
+          ]
+        },
+        {
+          "code": "GADAG",
+          "name": "Gadag",
+          "cities": [
+            "Gadag City",
+            "Gadag Town",
+            "Gadag Rural"
+          ]
+        },
+        {
+          "code": "HASSAN",
+          "name": "Hassan",
+          "cities": [
+            "Hassan City",
+            "Hassan Town",
+            "Hassan Rural"
+          ]
+        },
+        {
+          "code": "HAVERI",
+          "name": "Haveri",
+          "cities": [
+            "Haveri City",
+            "Haveri Town",
+            "Haveri Rural"
+          ]
+        },
+        {
+          "code": "KALABURAGI",
+          "name": "Kalaburagi",
+          "cities": [
+            "Kalaburagi City",
+            "Kalaburagi Town",
+            "Kalaburagi Rural"
+          ]
+        },
+        {
+          "code": "KODAGU",
+          "name": "Kodagu",
+          "cities": [
+            "Kodagu City",
+            "Kodagu Town",
+            "Kodagu Rural"
+          ]
+        },
+        {
+          "code": "KOLAR",
+          "name": "Kolar",
+          "cities": [
+            "Kolar City",
+            "Kolar Town",
+            "Kolar Rural"
+          ]
+        },
+        {
+          "code": "KOPPAL",
+          "name": "Koppal",
+          "cities": [
+            "Koppal City",
+            "Koppal Town",
+            "Koppal Rural"
+          ]
+        },
+        {
+          "code": "MANDYA",
+          "name": "Mandya",
+          "cities": [
+            "Mandya City",
+            "Mandya Town",
+            "Mandya Rural"
+          ]
+        },
+        {
+          "code": "MYSURU",
+          "name": "Mysuru",
+          "cities": [
+            "Mysuru City",
+            "Mysuru Town",
+            "Mysuru Rural"
+          ]
+        },
+        {
+          "code": "RAICHUR",
+          "name": "Raichur",
+          "cities": [
+            "Raichur City",
+            "Raichur Town",
+            "Raichur Rural"
+          ]
+        },
+        {
+          "code": "RAMANAGARA",
+          "name": "Ramanagara",
+          "cities": [
+            "Ramanagara City",
+            "Ramanagara Town",
+            "Ramanagara Rural"
+          ]
+        },
+        {
+          "code": "SHIVAMOGGA",
+          "name": "Shivamogga",
+          "cities": [
+            "Shivamogga City",
+            "Shivamogga Town",
+            "Shivamogga Rural"
+          ]
+        },
+        {
+          "code": "TUMAKURU",
+          "name": "Tumakuru",
+          "cities": [
+            "Tumakuru City",
+            "Tumakuru Town",
+            "Tumakuru Rural"
+          ]
+        },
+        {
+          "code": "UDUPI",
+          "name": "Udupi",
+          "cities": [
+            "Udupi City",
+            "Udupi Town",
+            "Udupi Rural"
+          ]
+        },
+        {
+          "code": "UTTARA_KANNA",
+          "name": "Uttara Kannada",
+          "cities": [
+            "Uttara Kannada City",
+            "Uttara Kannada Town",
+            "Uttara Kannada Rural"
+          ]
+        },
+        {
+          "code": "VIJAYAPURA",
+          "name": "Vijayapura",
+          "cities": [
+            "Vijayapura City",
+            "Vijayapura Town",
+            "Vijayapura Rural"
+          ]
+        },
+        {
+          "code": "YADGIR",
+          "name": "Yadgir",
+          "cities": [
+            "Yadgir City",
+            "Yadgir Town",
+            "Yadgir Rural"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "KERALA",
+      "name": "Kerala",
+      "districts": [
+        {
+          "code": "ALAPPUZHA",
+          "name": "Alappuzha",
+          "cities": [
+            "Alappuzha City",
+            "Alappuzha Town",
+            "Alappuzha Rural"
+          ]
+        },
+        {
+          "code": "ERNAKULAM",
+          "name": "Ernakulam",
+          "cities": [
+            "Ernakulam City",
+            "Ernakulam Town",
+            "Ernakulam Rural"
+          ]
+        },
+        {
+          "code": "IDUKKI",
+          "name": "Idukki",
+          "cities": [
+            "Idukki City",
+            "Idukki Town",
+            "Idukki Rural"
+          ]
+        },
+        {
+          "code": "KANNUR",
+          "name": "Kannur",
+          "cities": [
+            "Kannur City",
+            "Kannur Town",
+            "Kannur Rural"
+          ]
+        },
+        {
+          "code": "KASARAGOD",
+          "name": "Kasaragod",
+          "cities": [
+            "Kasaragod City",
+            "Kasaragod Town",
+            "Kasaragod Rural"
+          ]
+        },
+        {
+          "code": "KOLLAM",
+          "name": "Kollam",
+          "cities": [
+            "Kollam City",
+            "Kollam Town",
+            "Kollam Rural"
+          ]
+        },
+        {
+          "code": "KOTTAYAM",
+          "name": "Kottayam",
+          "cities": [
+            "Kottayam City",
+            "Kottayam Town",
+            "Kottayam Rural"
+          ]
+        },
+        {
+          "code": "KOZHIKODE",
+          "name": "Kozhikode",
+          "cities": [
+            "Kozhikode City",
+            "Kozhikode Town",
+            "Kozhikode Rural"
+          ]
+        },
+        {
+          "code": "MALAPPURAM",
+          "name": "Malappuram",
+          "cities": [
+            "Malappuram City",
+            "Malappuram Town",
+            "Malappuram Rural"
+          ]
+        },
+        {
+          "code": "PALAKKAD",
+          "name": "Palakkad",
+          "cities": [
+            "Palakkad City",
+            "Palakkad Town",
+            "Palakkad Rural"
+          ]
+        },
+        {
+          "code": "PATHANAMTHIT",
+          "name": "Pathanamthitta",
+          "cities": [
+            "Pathanamthitta City",
+            "Pathanamthitta Town",
+            "Pathanamthitta Rural"
+          ]
+        },
+        {
+          "code": "THIRUVANANTH",
+          "name": "Thiruvananthapuram",
+          "cities": [
+            "Thiruvananthapuram City",
+            "Thiruvananthapuram Town",
+            "Thiruvananthapuram Rural"
+          ]
+        },
+        {
+          "code": "THRISSUR",
+          "name": "Thrissur",
+          "cities": [
+            "Thrissur City",
+            "Thrissur Town",
+            "Thrissur Rural"
+          ]
+        },
+        {
+          "code": "WAYANAD",
+          "name": "Wayanad",
+          "cities": [
+            "Wayanad City",
+            "Wayanad Town",
+            "Wayanad Rural"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "MADHYA_PRA",
+      "name": "Madhya Pradesh",
+      "districts": [
+        {
+          "code": "AGAR_MALWA",
+          "name": "Agar Malwa",
+          "cities": [
+            "Agar Malwa City",
+            "Agar Malwa Town",
+            "Agar Malwa Rural"
+          ]
+        },
+        {
+          "code": "ALIRAJPUR",
+          "name": "Alirajpur",
+          "cities": [
+            "Alirajpur City",
+            "Alirajpur Town",
+            "Alirajpur Rural"
+          ]
+        },
+        {
+          "code": "ANUPPUR",
+          "name": "Anuppur",
+          "cities": [
+            "Anuppur City",
+            "Anuppur Town",
+            "Anuppur Rural"
+          ]
+        },
+        {
+          "code": "ASHOKNAGAR",
+          "name": "Ashoknagar",
+          "cities": [
+            "Ashoknagar City",
+            "Ashoknagar Town",
+            "Ashoknagar Rural"
+          ]
+        },
+        {
+          "code": "BALAGHAT",
+          "name": "Balaghat",
+          "cities": [
+            "Balaghat City",
+            "Balaghat Town",
+            "Balaghat Rural"
+          ]
+        },
+        {
+          "code": "BARWANI",
+          "name": "Barwani",
+          "cities": [
+            "Barwani City",
+            "Barwani Town",
+            "Barwani Rural"
+          ]
+        },
+        {
+          "code": "BETUL",
+          "name": "Betul",
+          "cities": [
+            "Betul City",
+            "Betul Town",
+            "Betul Rural"
+          ]
+        },
+        {
+          "code": "BHIND",
+          "name": "Bhind",
+          "cities": [
+            "Bhind City",
+            "Bhind Town",
+            "Bhind Rural"
+          ]
+        },
+        {
+          "code": "BHOPAL",
+          "name": "Bhopal",
+          "cities": [
+            "Bhopal City",
+            "Bhopal Town",
+            "Bhopal Rural"
+          ]
+        },
+        {
+          "code": "BURHANPUR",
+          "name": "Burhanpur",
+          "cities": [
+            "Burhanpur City",
+            "Burhanpur Town",
+            "Burhanpur Rural"
+          ]
+        },
+        {
+          "code": "CHHATARPUR",
+          "name": "Chhatarpur",
+          "cities": [
+            "Chhatarpur City",
+            "Chhatarpur Town",
+            "Chhatarpur Rural"
+          ]
+        },
+        {
+          "code": "CHHINDWARA",
+          "name": "Chhindwara",
+          "cities": [
+            "Chhindwara City",
+            "Chhindwara Town",
+            "Chhindwara Rural"
+          ]
+        },
+        {
+          "code": "DAMOH",
+          "name": "Damoh",
+          "cities": [
+            "Damoh City",
+            "Damoh Town",
+            "Damoh Rural"
+          ]
+        },
+        {
+          "code": "DATIA",
+          "name": "Datia",
+          "cities": [
+            "Datia City",
+            "Datia Town",
+            "Datia Rural"
+          ]
+        },
+        {
+          "code": "DEWAS",
+          "name": "Dewas",
+          "cities": [
+            "Dewas City",
+            "Dewas Town",
+            "Dewas Rural"
+          ]
+        },
+        {
+          "code": "DHAR",
+          "name": "Dhar",
+          "cities": [
+            "Dhar City",
+            "Dhar Town",
+            "Dhar Rural"
+          ]
+        },
+        {
+          "code": "DINDORI",
+          "name": "Dindori",
+          "cities": [
+            "Dindori City",
+            "Dindori Town",
+            "Dindori Rural"
+          ]
+        },
+        {
+          "code": "GUNA",
+          "name": "Guna",
+          "cities": [
+            "Guna City",
+            "Guna Town",
+            "Guna Rural"
+          ]
+        },
+        {
+          "code": "GWALIOR",
+          "name": "Gwalior",
+          "cities": [
+            "Gwalior City",
+            "Gwalior Town",
+            "Gwalior Rural"
+          ]
+        },
+        {
+          "code": "HARDA",
+          "name": "Harda",
+          "cities": [
+            "Harda City",
+            "Harda Town",
+            "Harda Rural"
+          ]
+        },
+        {
+          "code": "INDORE",
+          "name": "Indore",
+          "cities": [
+            "Indore City",
+            "Indore Town",
+            "Indore Rural"
+          ]
+        },
+        {
+          "code": "JABALPUR",
+          "name": "Jabalpur",
+          "cities": [
+            "Jabalpur City",
+            "Jabalpur Town",
+            "Jabalpur Rural"
+          ]
+        },
+        {
+          "code": "JHABUA",
+          "name": "Jhabua",
+          "cities": [
+            "Jhabua City",
+            "Jhabua Town",
+            "Jhabua Rural"
+          ]
+        },
+        {
+          "code": "KATNI",
+          "name": "Katni",
+          "cities": [
+            "Katni City",
+            "Katni Town",
+            "Katni Rural"
+          ]
+        },
+        {
+          "code": "KHANDWA",
+          "name": "Khandwa",
+          "cities": [
+            "Khandwa City",
+            "Khandwa Town",
+            "Khandwa Rural"
+          ]
+        },
+        {
+          "code": "KHARGONE",
+          "name": "Khargone",
+          "cities": [
+            "Khargone City",
+            "Khargone Town",
+            "Khargone Rural"
+          ]
+        },
+        {
+          "code": "MANDLA",
+          "name": "Mandla",
+          "cities": [
+            "Mandla City",
+            "Mandla Town",
+            "Mandla Rural"
+          ]
+        },
+        {
+          "code": "MANDSAUR",
+          "name": "Mandsaur",
+          "cities": [
+            "Mandsaur City",
+            "Mandsaur Town",
+            "Mandsaur Rural"
+          ]
+        },
+        {
+          "code": "MORENA",
+          "name": "Morena",
+          "cities": [
+            "Morena City",
+            "Morena Town",
+            "Morena Rural"
+          ]
+        },
+        {
+          "code": "NARSINGHPUR",
+          "name": "Narsinghpur",
+          "cities": [
+            "Narsinghpur City",
+            "Narsinghpur Town",
+            "Narsinghpur Rural"
+          ]
+        },
+        {
+          "code": "NEEMUCH",
+          "name": "Neemuch",
+          "cities": [
+            "Neemuch City",
+            "Neemuch Town",
+            "Neemuch Rural"
+          ]
+        },
+        {
+          "code": "PANNA",
+          "name": "Panna",
+          "cities": [
+            "Panna City",
+            "Panna Town",
+            "Panna Rural"
+          ]
+        },
+        {
+          "code": "RAISEN",
+          "name": "Raisen",
+          "cities": [
+            "Raisen City",
+            "Raisen Town",
+            "Raisen Rural"
+          ]
+        },
+        {
+          "code": "RAJGARH",
+          "name": "Rajgarh",
+          "cities": [
+            "Rajgarh City",
+            "Rajgarh Town",
+            "Rajgarh Rural"
+          ]
+        },
+        {
+          "code": "RATLAM",
+          "name": "Ratlam",
+          "cities": [
+            "Ratlam City",
+            "Ratlam Town",
+            "Ratlam Rural"
+          ]
+        },
+        {
+          "code": "REWA",
+          "name": "Rewa",
+          "cities": [
+            "Rewa City",
+            "Rewa Town",
+            "Rewa Rural"
+          ]
+        },
+        {
+          "code": "SAGAR",
+          "name": "Sagar",
+          "cities": [
+            "Sagar City",
+            "Sagar Town",
+            "Sagar Rural"
+          ]
+        },
+        {
+          "code": "SATNA",
+          "name": "Satna",
+          "cities": [
+            "Satna City",
+            "Satna Town",
+            "Satna Rural"
+          ]
+        },
+        {
+          "code": "SEHORE",
+          "name": "Sehore",
+          "cities": [
+            "Sehore City",
+            "Sehore Town",
+            "Sehore Rural"
+          ]
+        },
+        {
+          "code": "SEONI",
+          "name": "Seoni",
+          "cities": [
+            "Seoni City",
+            "Seoni Town",
+            "Seoni Rural"
+          ]
+        },
+        {
+          "code": "SHAHDOL",
+          "name": "Shahdol",
+          "cities": [
+            "Shahdol City",
+            "Shahdol Town",
+            "Shahdol Rural"
+          ]
+        },
+        {
+          "code": "SHAJAPUR",
+          "name": "Shajapur",
+          "cities": [
+            "Shajapur City",
+            "Shajapur Town",
+            "Shajapur Rural"
+          ]
+        },
+        {
+          "code": "SHEOPUR",
+          "name": "Sheopur",
+          "cities": [
+            "Sheopur City",
+            "Sheopur Town",
+            "Sheopur Rural"
+          ]
+        },
+        {
+          "code": "SHIVPURI",
+          "name": "Shivpuri",
+          "cities": [
+            "Shivpuri City",
+            "Shivpuri Town",
+            "Shivpuri Rural"
+          ]
+        },
+        {
+          "code": "SIDHI",
+          "name": "Sidhi",
+          "cities": [
+            "Sidhi City",
+            "Sidhi Town",
+            "Sidhi Rural"
+          ]
+        },
+        {
+          "code": "SINGRAULI",
+          "name": "Singrauli",
+          "cities": [
+            "Singrauli City",
+            "Singrauli Town",
+            "Singrauli Rural"
+          ]
+        },
+        {
+          "code": "TIKAMGARH",
+          "name": "Tikamgarh",
+          "cities": [
+            "Tikamgarh City",
+            "Tikamgarh Town",
+            "Tikamgarh Rural"
+          ]
+        },
+        {
+          "code": "UJJAIN",
+          "name": "Ujjain",
+          "cities": [
+            "Ujjain City",
+            "Ujjain Town",
+            "Ujjain Rural"
+          ]
+        },
+        {
+          "code": "UMARIA",
+          "name": "Umaria",
+          "cities": [
+            "Umaria City",
+            "Umaria Town",
+            "Umaria Rural"
+          ]
+        },
+        {
+          "code": "VIDISHA",
+          "name": "Vidisha",
+          "cities": [
+            "Vidisha City",
+            "Vidisha Town",
+            "Vidisha Rural"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "MAHARASHTR",
+      "name": "Maharashtra",
+      "districts": [
+        {
+          "code": "AHMEDNAGAR",
+          "name": "Ahmednagar",
+          "cities": [
+            "Ahmednagar City",
+            "Ahmednagar Town",
+            "Ahmednagar Rural"
+          ]
+        },
+        {
+          "code": "AKOLA",
+          "name": "Akola",
+          "cities": [
+            "Akola City",
+            "Akola Town",
+            "Akola Rural"
+          ]
+        },
+        {
+          "code": "AMRAVATI",
+          "name": "Amravati",
+          "cities": [
+            "Amravati City",
+            "Amravati Town",
+            "Amravati Rural"
+          ]
+        },
+        {
+          "code": "AURANGABAD",
+          "name": "Aurangabad",
+          "cities": [
+            "Aurangabad City",
+            "Aurangabad Town",
+            "Aurangabad Rural"
+          ]
+        },
+        {
+          "code": "BEED",
+          "name": "Beed",
+          "cities": [
+            "Beed City",
+            "Beed Town",
+            "Beed Rural"
+          ]
+        },
+        {
+          "code": "BHANDARA",
+          "name": "Bhandara",
+          "cities": [
+            "Bhandara City",
+            "Bhandara Town",
+            "Bhandara Rural"
+          ]
+        },
+        {
+          "code": "BULDHANA",
+          "name": "Buldhana",
+          "cities": [
+            "Buldhana City",
+            "Buldhana Town",
+            "Buldhana Rural"
+          ]
+        },
+        {
+          "code": "CHANDRAPUR",
+          "name": "Chandrapur",
+          "cities": [
+            "Chandrapur City",
+            "Chandrapur Town",
+            "Chandrapur Rural"
+          ]
+        },
+        {
+          "code": "DHULE",
+          "name": "Dhule",
+          "cities": [
+            "Dhule City",
+            "Dhule Town",
+            "Dhule Rural"
+          ]
+        },
+        {
+          "code": "GADCHIROLI",
+          "name": "Gadchiroli",
+          "cities": [
+            "Gadchiroli City",
+            "Gadchiroli Town",
+            "Gadchiroli Rural"
+          ]
+        },
+        {
+          "code": "GONDIA",
+          "name": "Gondia",
+          "cities": [
+            "Gondia City",
+            "Gondia Town",
+            "Gondia Rural"
+          ]
+        },
+        {
+          "code": "HINGOLI",
+          "name": "Hingoli",
+          "cities": [
+            "Hingoli City",
+            "Hingoli Town",
+            "Hingoli Rural"
+          ]
+        },
+        {
+          "code": "JALGAON",
+          "name": "Jalgaon",
+          "cities": [
+            "Jalgaon City",
+            "Jalgaon Town",
+            "Jalgaon Rural"
+          ]
+        },
+        {
+          "code": "JALNA",
+          "name": "Jalna",
+          "cities": [
+            "Jalna City",
+            "Jalna Town",
+            "Jalna Rural"
+          ]
+        },
+        {
+          "code": "KOLHAPUR",
+          "name": "Kolhapur",
+          "cities": [
+            "Kolhapur City",
+            "Kolhapur Town",
+            "Kolhapur Rural"
+          ]
+        },
+        {
+          "code": "LATUR",
+          "name": "Latur",
+          "cities": [
+            "Latur City",
+            "Latur Town",
+            "Latur Rural"
+          ]
+        },
+        {
+          "code": "MUMBAI_CITY",
+          "name": "Mumbai City",
+          "cities": [
+            "Mumbai City City",
+            "Mumbai City Town",
+            "Mumbai City Rural"
+          ]
+        },
+        {
+          "code": "MUMBAI_SUBUR",
+          "name": "Mumbai Suburban",
+          "cities": [
+            "Mumbai Suburban City",
+            "Mumbai Suburban Town",
+            "Mumbai Suburban Rural"
+          ]
+        },
+        {
+          "code": "NAGPUR",
+          "name": "Nagpur",
+          "cities": [
+            "Nagpur City",
+            "Nagpur Town",
+            "Nagpur Rural"
+          ]
+        },
+        {
+          "code": "NANDED",
+          "name": "Nanded",
+          "cities": [
+            "Nanded City",
+            "Nanded Town",
+            "Nanded Rural"
+          ]
+        },
+        {
+          "code": "NANDURBAR",
+          "name": "Nandurbar",
+          "cities": [
+            "Nandurbar City",
+            "Nandurbar Town",
+            "Nandurbar Rural"
+          ]
+        },
+        {
+          "code": "NASHIK",
+          "name": "Nashik",
+          "cities": [
+            "Nashik City",
+            "Nashik Town",
+            "Nashik Rural"
+          ]
+        },
+        {
+          "code": "OSMANABAD",
+          "name": "Osmanabad",
+          "cities": [
+            "Osmanabad City",
+            "Osmanabad Town",
+            "Osmanabad Rural"
+          ]
+        },
+        {
+          "code": "PALGHAR",
+          "name": "Palghar",
+          "cities": [
+            "Palghar City",
+            "Palghar Town",
+            "Palghar Rural"
+          ]
+        },
+        {
+          "code": "PARBHANI",
+          "name": "Parbhani",
+          "cities": [
+            "Parbhani City",
+            "Parbhani Town",
+            "Parbhani Rural"
+          ]
+        },
+        {
+          "code": "PUNE",
+          "name": "Pune",
+          "cities": [
+            "Pune City",
+            "Pune Town",
+            "Pune Rural"
+          ]
+        },
+        {
+          "code": "RAIGAD",
+          "name": "Raigad",
+          "cities": [
+            "Raigad City",
+            "Raigad Town",
+            "Raigad Rural"
+          ]
+        },
+        {
+          "code": "RATNAGIRI",
+          "name": "Ratnagiri",
+          "cities": [
+            "Ratnagiri City",
+            "Ratnagiri Town",
+            "Ratnagiri Rural"
+          ]
+        },
+        {
+          "code": "SANGLI",
+          "name": "Sangli",
+          "cities": [
+            "Sangli City",
+            "Sangli Town",
+            "Sangli Rural"
+          ]
+        },
+        {
+          "code": "SATARA",
+          "name": "Satara",
+          "cities": [
+            "Satara City",
+            "Satara Town",
+            "Satara Rural"
+          ]
+        },
+        {
+          "code": "SINDHUDURG",
+          "name": "Sindhudurg",
+          "cities": [
+            "Sindhudurg City",
+            "Sindhudurg Town",
+            "Sindhudurg Rural"
+          ]
+        },
+        {
+          "code": "SOLAPUR",
+          "name": "Solapur",
+          "cities": [
+            "Solapur City",
+            "Solapur Town",
+            "Solapur Rural"
+          ]
+        },
+        {
+          "code": "THANE",
+          "name": "Thane",
+          "cities": [
+            "Thane City",
+            "Thane Town",
+            "Thane Rural"
+          ]
+        },
+        {
+          "code": "WARDHA",
+          "name": "Wardha",
+          "cities": [
+            "Wardha City",
+            "Wardha Town",
+            "Wardha Rural"
+          ]
+        },
+        {
+          "code": "WASHIM",
+          "name": "Washim",
+          "cities": [
+            "Washim City",
+            "Washim Town",
+            "Washim Rural"
+          ]
+        },
+        {
+          "code": "YAVATMAL",
+          "name": "Yavatmal",
+          "cities": [
+            "Yavatmal City",
+            "Yavatmal Town",
+            "Yavatmal Rural"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "MANIPUR",
+      "name": "Manipur",
+      "districts": [
+        {
+          "code": "BISHNUPUR",
+          "name": "Bishnupur",
+          "cities": [
+            "Bishnupur City",
+            "Bishnupur Town",
+            "Bishnupur Rural"
+          ]
+        },
+        {
+          "code": "CHANDEL",
+          "name": "Chandel",
+          "cities": [
+            "Chandel City",
+            "Chandel Town",
+            "Chandel Rural"
+          ]
+        },
+        {
+          "code": "CHURACHANDPU",
+          "name": "Churachandpur",
+          "cities": [
+            "Churachandpur City",
+            "Churachandpur Town",
+            "Churachandpur Rural"
+          ]
+        },
+        {
+          "code": "IMPHAL_EAST",
+          "name": "Imphal East",
+          "cities": [
+            "Imphal East City",
+            "Imphal East Town",
+            "Imphal East Rural"
+          ]
+        },
+        {
+          "code": "IMPHAL_WEST",
+          "name": "Imphal West",
+          "cities": [
+            "Imphal West City",
+            "Imphal West Town",
+            "Imphal West Rural"
+          ]
+        },
+        {
+          "code": "SENAPATI",
+          "name": "Senapati",
+          "cities": [
+            "Senapati City",
+            "Senapati Town",
+            "Senapati Rural"
+          ]
+        },
+        {
+          "code": "THOUBAL",
+          "name": "Thoubal",
+          "cities": [
+            "Thoubal City",
+            "Thoubal Town",
+            "Thoubal Rural"
+          ]
+        },
+        {
+          "code": "UKHRUL",
+          "name": "Ukhrul",
+          "cities": [
+            "Ukhrul City",
+            "Ukhrul Town",
+            "Ukhrul Rural"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "MEGHALAYA",
+      "name": "Meghalaya",
+      "districts": [
+        {
+          "code": "EAST_GARO_HI",
+          "name": "East Garo Hills",
+          "cities": [
+            "East Garo Hills City",
+            "East Garo Hills Town",
+            "East Garo Hills Rural"
+          ]
+        },
+        {
+          "code": "EAST_JAINTIA",
+          "name": "East Jaintia Hills",
+          "cities": [
+            "East Jaintia Hills City",
+            "East Jaintia Hills Town",
+            "East Jaintia Hills Rural"
+          ]
+        },
+        {
+          "code": "EAST_KHASI_H",
+          "name": "East Khasi Hills",
+          "cities": [
+            "East Khasi Hills City",
+            "East Khasi Hills Town",
+            "East Khasi Hills Rural"
+          ]
+        },
+        {
+          "code": "NORTH_GARO_H",
+          "name": "North Garo Hills",
+          "cities": [
+            "North Garo Hills City",
+            "North Garo Hills Town",
+            "North Garo Hills Rural"
+          ]
+        },
+        {
+          "code": "RI_BHOI",
+          "name": "Ri Bhoi",
+          "cities": [
+            "Ri Bhoi City",
+            "Ri Bhoi Town",
+            "Ri Bhoi Rural"
+          ]
+        },
+        {
+          "code": "SOUTH_GARO_H",
+          "name": "South Garo Hills",
+          "cities": [
+            "South Garo Hills City",
+            "South Garo Hills Town",
+            "South Garo Hills Rural"
+          ]
+        },
+        {
+          "code": "SOUTH_WEST_G",
+          "name": "South West Garo Hills",
+          "cities": [
+            "South West Garo Hills City",
+            "South West Garo Hills Town",
+            "South West Garo Hills Rural"
+          ]
+        },
+        {
+          "code": "WEST_GARO_HI",
+          "name": "West Garo Hills",
+          "cities": [
+            "West Garo Hills City",
+            "West Garo Hills Town",
+            "West Garo Hills Rural"
+          ]
+        },
+        {
+          "code": "WEST_JAINTIA",
+          "name": "West Jaintia Hills",
+          "cities": [
+            "West Jaintia Hills City",
+            "West Jaintia Hills Town",
+            "West Jaintia Hills Rural"
+          ]
+        },
+        {
+          "code": "WEST_KHASI_H",
+          "name": "West Khasi Hills",
+          "cities": [
+            "West Khasi Hills City",
+            "West Khasi Hills Town",
+            "West Khasi Hills Rural"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "MIZORAM",
+      "name": "Mizoram",
+      "districts": [
+        {
+          "code": "AIZAWL",
+          "name": "Aizawl",
+          "cities": [
+            "Aizawl City",
+            "Aizawl Town",
+            "Aizawl Rural"
+          ]
+        },
+        {
+          "code": "CHAMPHAI",
+          "name": "Champhai",
+          "cities": [
+            "Champhai City",
+            "Champhai Town",
+            "Champhai Rural"
+          ]
+        },
+        {
+          "code": "KOLASIB",
+          "name": "Kolasib",
+          "cities": [
+            "Kolasib City",
+            "Kolasib Town",
+            "Kolasib Rural"
+          ]
+        },
+        {
+          "code": "LAWNGTLAI",
+          "name": "Lawngtlai",
+          "cities": [
+            "Lawngtlai City",
+            "Lawngtlai Town",
+            "Lawngtlai Rural"
+          ]
+        },
+        {
+          "code": "LUNGLEI",
+          "name": "Lunglei",
+          "cities": [
+            "Lunglei City",
+            "Lunglei Town",
+            "Lunglei Rural"
+          ]
+        },
+        {
+          "code": "MAMIT",
+          "name": "Mamit",
+          "cities": [
+            "Mamit City",
+            "Mamit Town",
+            "Mamit Rural"
+          ]
+        },
+        {
+          "code": "SAIHA",
+          "name": "Saiha",
+          "cities": [
+            "Saiha City",
+            "Saiha Town",
+            "Saiha Rural"
+          ]
+        },
+        {
+          "code": "SERCHHIP",
+          "name": "Serchhip",
+          "cities": [
+            "Serchhip City",
+            "Serchhip Town",
+            "Serchhip Rural"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "NAGALAND",
+      "name": "Nagaland",
+      "districts": [
+        {
+          "code": "DIMAPUR",
+          "name": "Dimapur",
+          "cities": [
+            "Dimapur City",
+            "Dimapur Town",
+            "Dimapur Rural"
+          ]
+        },
+        {
+          "code": "KOHIMA",
+          "name": "Kohima",
+          "cities": [
+            "Kohima City",
+            "Kohima Town",
+            "Kohima Rural"
+          ]
+        },
+        {
+          "code": "MOKOKCHUNG",
+          "name": "Mokokchung",
+          "cities": [
+            "Mokokchung City",
+            "Mokokchung Town",
+            "Mokokchung Rural"
+          ]
+        },
+        {
+          "code": "MON",
+          "name": "Mon",
+          "cities": [
+            "Mon City",
+            "Mon Town",
+            "Mon Rural"
+          ]
+        },
+        {
+          "code": "PEREN",
+          "name": "Peren",
+          "cities": [
+            "Peren City",
+            "Peren Town",
+            "Peren Rural"
+          ]
+        },
+        {
+          "code": "PHEK",
+          "name": "Phek",
+          "cities": [
+            "Phek City",
+            "Phek Town",
+            "Phek Rural"
+          ]
+        },
+        {
+          "code": "TUENSANG",
+          "name": "Tuensang",
+          "cities": [
+            "Tuensang City",
+            "Tuensang Town",
+            "Tuensang Rural"
+          ]
+        },
+        {
+          "code": "WOKHA",
+          "name": "Wokha",
+          "cities": [
+            "Wokha City",
+            "Wokha Town",
+            "Wokha Rural"
+          ]
+        },
+        {
+          "code": "ZUNHEBOTO",
+          "name": "Zunheboto",
+          "cities": [
+            "Zunheboto City",
+            "Zunheboto Town",
+            "Zunheboto Rural"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "ODISHA",
+      "name": "Odisha",
+      "districts": [
+        {
+          "code": "ANGUL",
+          "name": "Angul",
+          "cities": [
+            "Angul City",
+            "Angul Town",
+            "Angul Rural"
+          ]
+        },
+        {
+          "code": "BALANGIR",
+          "name": "Balangir",
+          "cities": [
+            "Balangir City",
+            "Balangir Town",
+            "Balangir Rural"
+          ]
+        },
+        {
+          "code": "BALASORE",
+          "name": "Balasore",
+          "cities": [
+            "Balasore City",
+            "Balasore Town",
+            "Balasore Rural"
+          ]
+        },
+        {
+          "code": "BARGARH",
+          "name": "Bargarh",
+          "cities": [
+            "Bargarh City",
+            "Bargarh Town",
+            "Bargarh Rural"
+          ]
+        },
+        {
+          "code": "BHADRAK",
+          "name": "Bhadrak",
+          "cities": [
+            "Bhadrak City",
+            "Bhadrak Town",
+            "Bhadrak Rural"
+          ]
+        },
+        {
+          "code": "BOUDH",
+          "name": "Boudh",
+          "cities": [
+            "Boudh City",
+            "Boudh Town",
+            "Boudh Rural"
+          ]
+        },
+        {
+          "code": "CUTTACK",
+          "name": "Cuttack",
+          "cities": [
+            "Cuttack City",
+            "Cuttack Town",
+            "Cuttack Rural"
+          ]
+        },
+        {
+          "code": "DEOGARH",
+          "name": "Deogarh",
+          "cities": [
+            "Deogarh City",
+            "Deogarh Town",
+            "Deogarh Rural"
+          ]
+        },
+        {
+          "code": "DHENKANAL",
+          "name": "Dhenkanal",
+          "cities": [
+            "Dhenkanal City",
+            "Dhenkanal Town",
+            "Dhenkanal Rural"
+          ]
+        },
+        {
+          "code": "GAJAPATI",
+          "name": "Gajapati",
+          "cities": [
+            "Gajapati City",
+            "Gajapati Town",
+            "Gajapati Rural"
+          ]
+        },
+        {
+          "code": "GANJAM",
+          "name": "Ganjam",
+          "cities": [
+            "Ganjam City",
+            "Ganjam Town",
+            "Ganjam Rural"
+          ]
+        },
+        {
+          "code": "JAGATSINGHPU",
+          "name": "Jagatsinghpur",
+          "cities": [
+            "Jagatsinghpur City",
+            "Jagatsinghpur Town",
+            "Jagatsinghpur Rural"
+          ]
+        },
+        {
+          "code": "JAJPUR",
+          "name": "Jajpur",
+          "cities": [
+            "Jajpur City",
+            "Jajpur Town",
+            "Jajpur Rural"
+          ]
+        },
+        {
+          "code": "JHARSUGUDA",
+          "name": "Jharsuguda",
+          "cities": [
+            "Jharsuguda City",
+            "Jharsuguda Town",
+            "Jharsuguda Rural"
+          ]
+        },
+        {
+          "code": "KALAHANDI",
+          "name": "Kalahandi",
+          "cities": [
+            "Kalahandi City",
+            "Kalahandi Town",
+            "Kalahandi Rural"
+          ]
+        },
+        {
+          "code": "KANDHAMAL",
+          "name": "Kandhamal",
+          "cities": [
+            "Kandhamal City",
+            "Kandhamal Town",
+            "Kandhamal Rural"
+          ]
+        },
+        {
+          "code": "KENDRAPARA",
+          "name": "Kendrapara",
+          "cities": [
+            "Kendrapara City",
+            "Kendrapara Town",
+            "Kendrapara Rural"
+          ]
+        },
+        {
+          "code": "KENDUJHAR",
+          "name": "Kendujhar",
+          "cities": [
+            "Kendujhar City",
+            "Kendujhar Town",
+            "Kendujhar Rural"
+          ]
+        },
+        {
+          "code": "KHORDHA",
+          "name": "Khordha",
+          "cities": [
+            "Khordha City",
+            "Khordha Town",
+            "Khordha Rural"
+          ]
+        },
+        {
+          "code": "KORAPUT",
+          "name": "Koraput",
+          "cities": [
+            "Koraput City",
+            "Koraput Town",
+            "Koraput Rural"
+          ]
+        },
+        {
+          "code": "MALKANGIRI",
+          "name": "Malkangiri",
+          "cities": [
+            "Malkangiri City",
+            "Malkangiri Town",
+            "Malkangiri Rural"
+          ]
+        },
+        {
+          "code": "MAYURBHANJ",
+          "name": "Mayurbhanj",
+          "cities": [
+            "Mayurbhanj City",
+            "Mayurbhanj Town",
+            "Mayurbhanj Rural"
+          ]
+        },
+        {
+          "code": "NABARANGPUR",
+          "name": "Nabarangpur",
+          "cities": [
+            "Nabarangpur City",
+            "Nabarangpur Town",
+            "Nabarangpur Rural"
+          ]
+        },
+        {
+          "code": "NAYAGARH",
+          "name": "Nayagarh",
+          "cities": [
+            "Nayagarh City",
+            "Nayagarh Town",
+            "Nayagarh Rural"
+          ]
+        },
+        {
+          "code": "NUAPADA",
+          "name": "Nuapada",
+          "cities": [
+            "Nuapada City",
+            "Nuapada Town",
+            "Nuapada Rural"
+          ]
+        },
+        {
+          "code": "PURI",
+          "name": "Puri",
+          "cities": [
+            "Puri City",
+            "Puri Town",
+            "Puri Rural"
+          ]
+        },
+        {
+          "code": "RAYAGADA",
+          "name": "Rayagada",
+          "cities": [
+            "Rayagada City",
+            "Rayagada Town",
+            "Rayagada Rural"
+          ]
+        },
+        {
+          "code": "SAMBALPUR",
+          "name": "Sambalpur",
+          "cities": [
+            "Sambalpur City",
+            "Sambalpur Town",
+            "Sambalpur Rural"
+          ]
+        },
+        {
+          "code": "SUBARNAPUR",
+          "name": "Subarnapur",
+          "cities": [
+            "Subarnapur City",
+            "Subarnapur Town",
+            "Subarnapur Rural"
+          ]
+        },
+        {
+          "code": "SUNDARGARH",
+          "name": "Sundargarh",
+          "cities": [
+            "Sundargarh City",
+            "Sundargarh Town",
+            "Sundargarh Rural"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "PUNJAB",
+      "name": "Punjab",
+      "districts": [
+        {
+          "code": "AMRITSAR",
+          "name": "Amritsar",
+          "cities": [
+            "Amritsar City",
+            "Amritsar Town",
+            "Amritsar Rural"
+          ]
+        },
+        {
+          "code": "BARNALA",
+          "name": "Barnala",
+          "cities": [
+            "Barnala City",
+            "Barnala Town",
+            "Barnala Rural"
+          ]
+        },
+        {
+          "code": "BATHINDA",
+          "name": "Bathinda",
+          "cities": [
+            "Bathinda City",
+            "Bathinda Town",
+            "Bathinda Rural"
+          ]
+        },
+        {
+          "code": "FARIDKOT",
+          "name": "Faridkot",
+          "cities": [
+            "Faridkot City",
+            "Faridkot Town",
+            "Faridkot Rural"
+          ]
+        },
+        {
+          "code": "FATEHGARH_SA",
+          "name": "Fatehgarh Sahib",
+          "cities": [
+            "Fatehgarh Sahib City",
+            "Fatehgarh Sahib Town",
+            "Fatehgarh Sahib Rural"
+          ]
+        },
+        {
+          "code": "FAZILKA",
+          "name": "Fazilka",
+          "cities": [
+            "Fazilka City",
+            "Fazilka Town",
+            "Fazilka Rural"
+          ]
+        },
+        {
+          "code": "FEROZEPUR",
+          "name": "Ferozepur",
+          "cities": [
+            "Ferozepur City",
+            "Ferozepur Town",
+            "Ferozepur Rural"
+          ]
+        },
+        {
+          "code": "GURDASPUR",
+          "name": "Gurdaspur",
+          "cities": [
+            "Gurdaspur City",
+            "Gurdaspur Town",
+            "Gurdaspur Rural"
+          ]
+        },
+        {
+          "code": "HOSHIARPUR",
+          "name": "Hoshiarpur",
+          "cities": [
+            "Hoshiarpur City",
+            "Hoshiarpur Town",
+            "Hoshiarpur Rural"
+          ]
+        },
+        {
+          "code": "JALANDHAR",
+          "name": "Jalandhar",
+          "cities": [
+            "Jalandhar City",
+            "Jalandhar Town",
+            "Jalandhar Rural"
+          ]
+        },
+        {
+          "code": "KAPURTHALA",
+          "name": "Kapurthala",
+          "cities": [
+            "Kapurthala City",
+            "Kapurthala Town",
+            "Kapurthala Rural"
+          ]
+        },
+        {
+          "code": "LUDHIANA",
+          "name": "Ludhiana",
+          "cities": [
+            "Ludhiana City",
+            "Ludhiana Town",
+            "Ludhiana Rural"
+          ]
+        },
+        {
+          "code": "MANSA",
+          "name": "Mansa",
+          "cities": [
+            "Mansa City",
+            "Mansa Town",
+            "Mansa Rural"
+          ]
+        },
+        {
+          "code": "MOGA",
+          "name": "Moga",
+          "cities": [
+            "Moga City",
+            "Moga Town",
+            "Moga Rural"
+          ]
+        },
+        {
+          "code": "MUKTSAR",
+          "name": "Muktsar",
+          "cities": [
+            "Muktsar City",
+            "Muktsar Town",
+            "Muktsar Rural"
+          ]
+        },
+        {
+          "code": "PATHANKOT",
+          "name": "Pathankot",
+          "cities": [
+            "Pathankot City",
+            "Pathankot Town",
+            "Pathankot Rural"
+          ]
+        },
+        {
+          "code": "PATIALA",
+          "name": "Patiala",
+          "cities": [
+            "Patiala City",
+            "Patiala Town",
+            "Patiala Rural"
+          ]
+        },
+        {
+          "code": "RUPNAGAR",
+          "name": "Rupnagar",
+          "cities": [
+            "Rupnagar City",
+            "Rupnagar Town",
+            "Rupnagar Rural"
+          ]
+        },
+        {
+          "code": "SANGRUR",
+          "name": "Sangrur",
+          "cities": [
+            "Sangrur City",
+            "Sangrur Town",
+            "Sangrur Rural"
+          ]
+        },
+        {
+          "code": "SAS_NAGAR",
+          "name": "SAS Nagar",
+          "cities": [
+            "SAS Nagar City",
+            "SAS Nagar Town",
+            "SAS Nagar Rural"
+          ]
+        },
+        {
+          "code": "TARN_TARAN",
+          "name": "Tarn Taran",
+          "cities": [
+            "Tarn Taran City",
+            "Tarn Taran Town",
+            "Tarn Taran Rural"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "RAJASTHAN",
+      "name": "Rajasthan",
+      "districts": [
+        {
+          "code": "AJMER",
+          "name": "Ajmer",
+          "cities": [
+            "Ajmer City",
+            "Ajmer Town",
+            "Ajmer Rural"
+          ]
+        },
+        {
+          "code": "ALWAR",
+          "name": "Alwar",
+          "cities": [
+            "Alwar City",
+            "Alwar Town",
+            "Alwar Rural"
+          ]
+        },
+        {
+          "code": "BANSWARA",
+          "name": "Banswara",
+          "cities": [
+            "Banswara City",
+            "Banswara Town",
+            "Banswara Rural"
+          ]
+        },
+        {
+          "code": "BARAN",
+          "name": "Baran",
+          "cities": [
+            "Baran City",
+            "Baran Town",
+            "Baran Rural"
+          ]
+        },
+        {
+          "code": "BARMER",
+          "name": "Barmer",
+          "cities": [
+            "Barmer City",
+            "Barmer Town",
+            "Barmer Rural"
+          ]
+        },
+        {
+          "code": "BHARATPUR",
+          "name": "Bharatpur",
+          "cities": [
+            "Bharatpur City",
+            "Bharatpur Town",
+            "Bharatpur Rural"
+          ]
+        },
+        {
+          "code": "BHILWARA",
+          "name": "Bhilwara",
+          "cities": [
+            "Bhilwara City",
+            "Bhilwara Town",
+            "Bhilwara Rural"
+          ]
+        },
+        {
+          "code": "BIKANER",
+          "name": "Bikaner",
+          "cities": [
+            "Bikaner City",
+            "Bikaner Town",
+            "Bikaner Rural"
+          ]
+        },
+        {
+          "code": "BUNDI",
+          "name": "Bundi",
+          "cities": [
+            "Bundi City",
+            "Bundi Town",
+            "Bundi Rural"
+          ]
+        },
+        {
+          "code": "CHITTORGARH",
+          "name": "Chittorgarh",
+          "cities": [
+            "Chittorgarh City",
+            "Chittorgarh Town",
+            "Chittorgarh Rural"
+          ]
+        },
+        {
+          "code": "CHURU",
+          "name": "Churu",
+          "cities": [
+            "Churu City",
+            "Churu Town",
+            "Churu Rural"
+          ]
+        },
+        {
+          "code": "DAUSA",
+          "name": "Dausa",
+          "cities": [
+            "Dausa City",
+            "Dausa Town",
+            "Dausa Rural"
+          ]
+        },
+        {
+          "code": "DHOLPUR",
+          "name": "Dholpur",
+          "cities": [
+            "Dholpur City",
+            "Dholpur Town",
+            "Dholpur Rural"
+          ]
+        },
+        {
+          "code": "DUNGARPUR",
+          "name": "Dungarpur",
+          "cities": [
+            "Dungarpur City",
+            "Dungarpur Town",
+            "Dungarpur Rural"
+          ]
+        },
+        {
+          "code": "HANUMANGARH",
+          "name": "Hanumangarh",
+          "cities": [
+            "Hanumangarh City",
+            "Hanumangarh Town",
+            "Hanumangarh Rural"
+          ]
+        },
+        {
+          "code": "JAIPUR",
+          "name": "Jaipur",
+          "cities": [
+            "Jaipur City",
+            "Jaipur Town",
+            "Jaipur Rural"
+          ]
+        },
+        {
+          "code": "JAISALMER",
+          "name": "Jaisalmer",
+          "cities": [
+            "Jaisalmer City",
+            "Jaisalmer Town",
+            "Jaisalmer Rural"
+          ]
+        },
+        {
+          "code": "JALORE",
+          "name": "Jalore",
+          "cities": [
+            "Jalore City",
+            "Jalore Town",
+            "Jalore Rural"
+          ]
+        },
+        {
+          "code": "JHALAWAR",
+          "name": "Jhalawar",
+          "cities": [
+            "Jhalawar City",
+            "Jhalawar Town",
+            "Jhalawar Rural"
+          ]
+        },
+        {
+          "code": "JHUNJHUNU",
+          "name": "Jhunjhunu",
+          "cities": [
+            "Jhunjhunu City",
+            "Jhunjhunu Town",
+            "Jhunjhunu Rural"
+          ]
+        },
+        {
+          "code": "JODHPUR",
+          "name": "Jodhpur",
+          "cities": [
+            "Jodhpur City",
+            "Jodhpur Town",
+            "Jodhpur Rural"
+          ]
+        },
+        {
+          "code": "KARAULI",
+          "name": "Karauli",
+          "cities": [
+            "Karauli City",
+            "Karauli Town",
+            "Karauli Rural"
+          ]
+        },
+        {
+          "code": "KOTA",
+          "name": "Kota",
+          "cities": [
+            "Kota City",
+            "Kota Town",
+            "Kota Rural"
+          ]
+        },
+        {
+          "code": "NAGAUR",
+          "name": "Nagaur",
+          "cities": [
+            "Nagaur City",
+            "Nagaur Town",
+            "Nagaur Rural"
+          ]
+        },
+        {
+          "code": "PALI",
+          "name": "Pali",
+          "cities": [
+            "Pali City",
+            "Pali Town",
+            "Pali Rural"
+          ]
+        },
+        {
+          "code": "PRATAPGARH",
+          "name": "Pratapgarh",
+          "cities": [
+            "Pratapgarh City",
+            "Pratapgarh Town",
+            "Pratapgarh Rural"
+          ]
+        },
+        {
+          "code": "RAJSAMAND",
+          "name": "Rajsamand",
+          "cities": [
+            "Rajsamand City",
+            "Rajsamand Town",
+            "Rajsamand Rural"
+          ]
+        },
+        {
+          "code": "SAWAI_MADHOP",
+          "name": "Sawai Madhopur",
+          "cities": [
+            "Sawai Madhopur City",
+            "Sawai Madhopur Town",
+            "Sawai Madhopur Rural"
+          ]
+        },
+        {
+          "code": "SIKAR",
+          "name": "Sikar",
+          "cities": [
+            "Sikar City",
+            "Sikar Town",
+            "Sikar Rural"
+          ]
+        },
+        {
+          "code": "SIROHI",
+          "name": "Sirohi",
+          "cities": [
+            "Sirohi City",
+            "Sirohi Town",
+            "Sirohi Rural"
+          ]
+        },
+        {
+          "code": "SRI_GANGANAG",
+          "name": "Sri Ganganagar",
+          "cities": [
+            "Sri Ganganagar City",
+            "Sri Ganganagar Town",
+            "Sri Ganganagar Rural"
+          ]
+        },
+        {
+          "code": "TONK",
+          "name": "Tonk",
+          "cities": [
+            "Tonk City",
+            "Tonk Town",
+            "Tonk Rural"
+          ]
+        },
+        {
+          "code": "UDAIPUR",
+          "name": "Udaipur",
+          "cities": [
+            "Udaipur City",
+            "Udaipur Town",
+            "Udaipur Rural"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "SIKKIM",
+      "name": "Sikkim",
+      "districts": [
+        {
+          "code": "EAST_SIKKIM",
+          "name": "East Sikkim",
+          "cities": [
+            "East Sikkim City",
+            "East Sikkim Town",
+            "East Sikkim Rural"
+          ]
+        },
+        {
+          "code": "NORTH_SIKKIM",
+          "name": "North Sikkim",
+          "cities": [
+            "North Sikkim City",
+            "North Sikkim Town",
+            "North Sikkim Rural"
+          ]
+        },
+        {
+          "code": "SOUTH_SIKKIM",
+          "name": "South Sikkim",
+          "cities": [
+            "South Sikkim City",
+            "South Sikkim Town",
+            "South Sikkim Rural"
+          ]
+        },
+        {
+          "code": "WEST_SIKKIM",
+          "name": "West Sikkim",
+          "cities": [
+            "West Sikkim City",
+            "West Sikkim Town",
+            "West Sikkim Rural"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "TAMIL_NADU",
+      "name": "Tamil Nadu",
+      "districts": [
+        {
+          "code": "ARIYALUR",
+          "name": "Ariyalur",
+          "cities": [
+            "Ariyalur City",
+            "Ariyalur Town",
+            "Ariyalur Rural"
+          ]
+        },
+        {
+          "code": "CHENGALPATTU",
+          "name": "Chengalpattu",
+          "cities": [
+            "Chengalpattu City",
+            "Chengalpattu Town",
+            "Chengalpattu Rural"
+          ]
+        },
+        {
+          "code": "CHENNAI",
+          "name": "Chennai",
+          "cities": [
+            "Chennai City",
+            "Chennai Town",
+            "Chennai Rural"
+          ]
+        },
+        {
+          "code": "COIMBATORE",
+          "name": "Coimbatore",
+          "cities": [
+            "Coimbatore City",
+            "Coimbatore Town",
+            "Coimbatore Rural"
+          ]
+        },
+        {
+          "code": "CUDDALORE",
+          "name": "Cuddalore",
+          "cities": [
+            "Cuddalore City",
+            "Cuddalore Town",
+            "Cuddalore Rural"
+          ]
+        },
+        {
+          "code": "DHARMAPURI",
+          "name": "Dharmapuri",
+          "cities": [
+            "Dharmapuri City",
+            "Dharmapuri Town",
+            "Dharmapuri Rural"
+          ]
+        },
+        {
+          "code": "DINDIGUL",
+          "name": "Dindigul",
+          "cities": [
+            "Dindigul City",
+            "Dindigul Town",
+            "Dindigul Rural"
+          ]
+        },
+        {
+          "code": "ERODE",
+          "name": "Erode",
+          "cities": [
+            "Erode City",
+            "Erode Town",
+            "Erode Rural"
+          ]
+        },
+        {
+          "code": "KALLAKURICHI",
+          "name": "Kallakurichi",
+          "cities": [
+            "Kallakurichi City",
+            "Kallakurichi Town",
+            "Kallakurichi Rural"
+          ]
+        },
+        {
+          "code": "KANCHIPURAM",
+          "name": "Kanchipuram",
+          "cities": [
+            "Kanchipuram City",
+            "Kanchipuram Town",
+            "Kanchipuram Rural"
+          ]
+        },
+        {
+          "code": "KANYAKUMARI",
+          "name": "Kanyakumari",
+          "cities": [
+            "Kanyakumari City",
+            "Kanyakumari Town",
+            "Kanyakumari Rural"
+          ]
+        },
+        {
+          "code": "KARUR",
+          "name": "Karur",
+          "cities": [
+            "Karur City",
+            "Karur Town",
+            "Karur Rural"
+          ]
+        },
+        {
+          "code": "KRISHNAGIRI",
+          "name": "Krishnagiri",
+          "cities": [
+            "Krishnagiri City",
+            "Krishnagiri Town",
+            "Krishnagiri Rural"
+          ]
+        },
+        {
+          "code": "MADURAI",
+          "name": "Madurai",
+          "cities": [
+            "Madurai City",
+            "Madurai Town",
+            "Madurai Rural"
+          ]
+        },
+        {
+          "code": "MAYILADUTHUR",
+          "name": "Mayiladuthurai",
+          "cities": [
+            "Mayiladuthurai City",
+            "Mayiladuthurai Town",
+            "Mayiladuthurai Rural"
+          ]
+        },
+        {
+          "code": "NAGAPATTINAM",
+          "name": "Nagapattinam",
+          "cities": [
+            "Nagapattinam City",
+            "Nagapattinam Town",
+            "Nagapattinam Rural"
+          ]
+        },
+        {
+          "code": "NAMAKKAL",
+          "name": "Namakkal",
+          "cities": [
+            "Namakkal City",
+            "Namakkal Town",
+            "Namakkal Rural"
+          ]
+        },
+        {
+          "code": "NILGIRIS",
+          "name": "Nilgiris",
+          "cities": [
+            "Nilgiris City",
+            "Nilgiris Town",
+            "Nilgiris Rural"
+          ]
+        },
+        {
+          "code": "PERAMBALUR",
+          "name": "Perambalur",
+          "cities": [
+            "Perambalur City",
+            "Perambalur Town",
+            "Perambalur Rural"
+          ]
+        },
+        {
+          "code": "PUDUKKOTTAI",
+          "name": "Pudukkottai",
+          "cities": [
+            "Pudukkottai City",
+            "Pudukkottai Town",
+            "Pudukkottai Rural"
+          ]
+        },
+        {
+          "code": "RAMANATHAPUR",
+          "name": "Ramanathapuram",
+          "cities": [
+            "Ramanathapuram City",
+            "Ramanathapuram Town",
+            "Ramanathapuram Rural"
+          ]
+        },
+        {
+          "code": "RANIPET",
+          "name": "Ranipet",
+          "cities": [
+            "Ranipet City",
+            "Ranipet Town",
+            "Ranipet Rural"
+          ]
+        },
+        {
+          "code": "SALEM",
+          "name": "Salem",
+          "cities": [
+            "Salem City",
+            "Salem Town",
+            "Salem Rural"
+          ]
+        },
+        {
+          "code": "SIVAGANGA",
+          "name": "Sivaganga",
+          "cities": [
+            "Sivaganga City",
+            "Sivaganga Town",
+            "Sivaganga Rural"
+          ]
+        },
+        {
+          "code": "TENKASI",
+          "name": "Tenkasi",
+          "cities": [
+            "Tenkasi City",
+            "Tenkasi Town",
+            "Tenkasi Rural"
+          ]
+        },
+        {
+          "code": "THANJAVUR",
+          "name": "Thanjavur",
+          "cities": [
+            "Thanjavur City",
+            "Thanjavur Town",
+            "Thanjavur Rural"
+          ]
+        },
+        {
+          "code": "THENI",
+          "name": "Theni",
+          "cities": [
+            "Theni City",
+            "Theni Town",
+            "Theni Rural"
+          ]
+        },
+        {
+          "code": "THOOTHUKUDI",
+          "name": "Thoothukudi",
+          "cities": [
+            "Thoothukudi City",
+            "Thoothukudi Town",
+            "Thoothukudi Rural"
+          ]
+        },
+        {
+          "code": "TIRUCHIRAPPA",
+          "name": "Tiruchirappalli",
+          "cities": [
+            "Tiruchirappalli City",
+            "Tiruchirappalli Town",
+            "Tiruchirappalli Rural"
+          ]
+        },
+        {
+          "code": "TIRUNELVELI",
+          "name": "Tirunelveli",
+          "cities": [
+            "Tirunelveli City",
+            "Tirunelveli Town",
+            "Tirunelveli Rural"
+          ]
+        },
+        {
+          "code": "TIRUPATHUR",
+          "name": "Tirupathur",
+          "cities": [
+            "Tirupathur City",
+            "Tirupathur Town",
+            "Tirupathur Rural"
+          ]
+        },
+        {
+          "code": "TIRUPPUR",
+          "name": "Tiruppur",
+          "cities": [
+            "Tiruppur City",
+            "Tiruppur Town",
+            "Tiruppur Rural"
+          ]
+        },
+        {
+          "code": "TIRUVALLUR",
+          "name": "Tiruvallur",
+          "cities": [
+            "Tiruvallur City",
+            "Tiruvallur Town",
+            "Tiruvallur Rural"
+          ]
+        },
+        {
+          "code": "TIRUVANNAMAL",
+          "name": "Tiruvannamalai",
+          "cities": [
+            "Tiruvannamalai City",
+            "Tiruvannamalai Town",
+            "Tiruvannamalai Rural"
+          ]
+        },
+        {
+          "code": "TIRUVARUR",
+          "name": "Tiruvarur",
+          "cities": [
+            "Tiruvarur City",
+            "Tiruvarur Town",
+            "Tiruvarur Rural"
+          ]
+        },
+        {
+          "code": "VELLORE",
+          "name": "Vellore",
+          "cities": [
+            "Vellore City",
+            "Vellore Town",
+            "Vellore Rural"
+          ]
+        },
+        {
+          "code": "VILUPPURAM",
+          "name": "Viluppuram",
+          "cities": [
+            "Viluppuram City",
+            "Viluppuram Town",
+            "Viluppuram Rural"
+          ]
+        },
+        {
+          "code": "VIRUDHUNAGAR",
+          "name": "Virudhunagar",
+          "cities": [
+            "Virudhunagar City",
+            "Virudhunagar Town",
+            "Virudhunagar Rural"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "TELANGANA",
+      "name": "Telangana",
+      "districts": [
+        {
+          "code": "ADILABAD",
+          "name": "Adilabad",
+          "cities": [
+            "Adilabad City",
+            "Adilabad Town",
+            "Adilabad Rural"
+          ]
+        },
+        {
+          "code": "BHADRADRI_KO",
+          "name": "Bhadradri Kothagudem",
+          "cities": [
+            "Bhadradri Kothagudem City",
+            "Bhadradri Kothagudem Town",
+            "Bhadradri Kothagudem Rural"
+          ]
+        },
+        {
+          "code": "HYDERABAD",
+          "name": "Hyderabad",
+          "cities": [
+            "Hyderabad City",
+            "Hyderabad Town",
+            "Hyderabad Rural"
+          ]
+        },
+        {
+          "code": "JAGTIAL",
+          "name": "Jagtial",
+          "cities": [
+            "Jagtial City",
+            "Jagtial Town",
+            "Jagtial Rural"
+          ]
+        },
+        {
+          "code": "JANGAON",
+          "name": "Jangaon",
+          "cities": [
+            "Jangaon City",
+            "Jangaon Town",
+            "Jangaon Rural"
+          ]
+        },
+        {
+          "code": "JAYASHANKAR",
+          "name": "Jayashankar",
+          "cities": [
+            "Jayashankar City",
+            "Jayashankar Town",
+            "Jayashankar Rural"
+          ]
+        },
+        {
+          "code": "JOGULAMBA",
+          "name": "Jogulamba",
+          "cities": [
+            "Jogulamba City",
+            "Jogulamba Town",
+            "Jogulamba Rural"
+          ]
+        },
+        {
+          "code": "KAMAREDDY",
+          "name": "Kamareddy",
+          "cities": [
+            "Kamareddy City",
+            "Kamareddy Town",
+            "Kamareddy Rural"
+          ]
+        },
+        {
+          "code": "KARIMNAGAR",
+          "name": "Karimnagar",
+          "cities": [
+            "Karimnagar City",
+            "Karimnagar Town",
+            "Karimnagar Rural"
+          ]
+        },
+        {
+          "code": "KHAMMAM",
+          "name": "Khammam",
+          "cities": [
+            "Khammam City",
+            "Khammam Town",
+            "Khammam Rural"
+          ]
+        },
+        {
+          "code": "KOMARAM_BHEE",
+          "name": "Komaram Bheem",
+          "cities": [
+            "Komaram Bheem City",
+            "Komaram Bheem Town",
+            "Komaram Bheem Rural"
+          ]
+        },
+        {
+          "code": "MAHABUBABAD",
+          "name": "Mahabubabad",
+          "cities": [
+            "Mahabubabad City",
+            "Mahabubabad Town",
+            "Mahabubabad Rural"
+          ]
+        },
+        {
+          "code": "MAHABUBNAGAR",
+          "name": "Mahabubnagar",
+          "cities": [
+            "Mahabubnagar City",
+            "Mahabubnagar Town",
+            "Mahabubnagar Rural"
+          ]
+        },
+        {
+          "code": "MANCHERIAL",
+          "name": "Mancherial",
+          "cities": [
+            "Mancherial City",
+            "Mancherial Town",
+            "Mancherial Rural"
+          ]
+        },
+        {
+          "code": "MEDAK",
+          "name": "Medak",
+          "cities": [
+            "Medak City",
+            "Medak Town",
+            "Medak Rural"
+          ]
+        },
+        {
+          "code": "MEDCHAL-MALK",
+          "name": "Medchal-Malkajgiri",
+          "cities": [
+            "Medchal-Malkajgiri City",
+            "Medchal-Malkajgiri Town",
+            "Medchal-Malkajgiri Rural"
+          ]
+        },
+        {
+          "code": "MULUGU",
+          "name": "Mulugu",
+          "cities": [
+            "Mulugu City",
+            "Mulugu Town",
+            "Mulugu Rural"
+          ]
+        },
+        {
+          "code": "NAGARKURNOOL",
+          "name": "Nagarkurnool",
+          "cities": [
+            "Nagarkurnool City",
+            "Nagarkurnool Town",
+            "Nagarkurnool Rural"
+          ]
+        },
+        {
+          "code": "NALGONDA",
+          "name": "Nalgonda",
+          "cities": [
+            "Nalgonda City",
+            "Nalgonda Town",
+            "Nalgonda Rural"
+          ]
+        },
+        {
+          "code": "NIRMAL",
+          "name": "Nirmal",
+          "cities": [
+            "Nirmal City",
+            "Nirmal Town",
+            "Nirmal Rural"
+          ]
+        },
+        {
+          "code": "NIZAMABAD",
+          "name": "Nizamabad",
+          "cities": [
+            "Nizamabad City",
+            "Nizamabad Town",
+            "Nizamabad Rural"
+          ]
+        },
+        {
+          "code": "PEDDAPALLI",
+          "name": "Peddapalli",
+          "cities": [
+            "Peddapalli City",
+            "Peddapalli Town",
+            "Peddapalli Rural"
+          ]
+        },
+        {
+          "code": "RAJANNA_SIRC",
+          "name": "Rajanna Sircilla",
+          "cities": [
+            "Rajanna Sircilla City",
+            "Rajanna Sircilla Town",
+            "Rajanna Sircilla Rural"
+          ]
+        },
+        {
+          "code": "RANGAREDDY",
+          "name": "Rangareddy",
+          "cities": [
+            "Rangareddy City",
+            "Rangareddy Town",
+            "Rangareddy Rural"
+          ]
+        },
+        {
+          "code": "SANGAREDDY",
+          "name": "Sangareddy",
+          "cities": [
+            "Sangareddy City",
+            "Sangareddy Town",
+            "Sangareddy Rural"
+          ]
+        },
+        {
+          "code": "SIDDIPET",
+          "name": "Siddipet",
+          "cities": [
+            "Siddipet City",
+            "Siddipet Town",
+            "Siddipet Rural"
+          ]
+        },
+        {
+          "code": "SURYAPET",
+          "name": "Suryapet",
+          "cities": [
+            "Suryapet City",
+            "Suryapet Town",
+            "Suryapet Rural"
+          ]
+        },
+        {
+          "code": "VIKARABAD",
+          "name": "Vikarabad",
+          "cities": [
+            "Vikarabad City",
+            "Vikarabad Town",
+            "Vikarabad Rural"
+          ]
+        },
+        {
+          "code": "WANAPARTHY",
+          "name": "Wanaparthy",
+          "cities": [
+            "Wanaparthy City",
+            "Wanaparthy Town",
+            "Wanaparthy Rural"
+          ]
+        },
+        {
+          "code": "WARANGAL_RUR",
+          "name": "Warangal Rural",
+          "cities": [
+            "Warangal Rural City",
+            "Warangal Rural Town",
+            "Warangal Rural Rural"
+          ]
+        },
+        {
+          "code": "WARANGAL_URB",
+          "name": "Warangal Urban",
+          "cities": [
+            "Warangal Urban City",
+            "Warangal Urban Town",
+            "Warangal Urban Rural"
+          ]
+        },
+        {
+          "code": "YADADRI_BHUV",
+          "name": "Yadadri Bhuvanagiri",
+          "cities": [
+            "Yadadri Bhuvanagiri City",
+            "Yadadri Bhuvanagiri Town",
+            "Yadadri Bhuvanagiri Rural"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "TRIPURA",
+      "name": "Tripura",
+      "districts": [
+        {
+          "code": "DHALAI",
+          "name": "Dhalai",
+          "cities": [
+            "Dhalai City",
+            "Dhalai Town",
+            "Dhalai Rural"
+          ]
+        },
+        {
+          "code": "GOMATI",
+          "name": "Gomati",
+          "cities": [
+            "Gomati City",
+            "Gomati Town",
+            "Gomati Rural"
+          ]
+        },
+        {
+          "code": "KHOWAI",
+          "name": "Khowai",
+          "cities": [
+            "Khowai City",
+            "Khowai Town",
+            "Khowai Rural"
+          ]
+        },
+        {
+          "code": "NORTH_TRIPUR",
+          "name": "North Tripura",
+          "cities": [
+            "North Tripura City",
+            "North Tripura Town",
+            "North Tripura Rural"
+          ]
+        },
+        {
+          "code": "SEPAHIJALA",
+          "name": "Sepahijala",
+          "cities": [
+            "Sepahijala City",
+            "Sepahijala Town",
+            "Sepahijala Rural"
+          ]
+        },
+        {
+          "code": "SOUTH_TRIPUR",
+          "name": "South Tripura",
+          "cities": [
+            "South Tripura City",
+            "South Tripura Town",
+            "South Tripura Rural"
+          ]
+        },
+        {
+          "code": "UNAKOTI",
+          "name": "Unakoti",
+          "cities": [
+            "Unakoti City",
+            "Unakoti Town",
+            "Unakoti Rural"
+          ]
+        },
+        {
+          "code": "WEST_TRIPURA",
+          "name": "West Tripura",
+          "cities": [
+            "West Tripura City",
+            "West Tripura Town",
+            "West Tripura Rural"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "UTTAR_PRAD",
+      "name": "Uttar Pradesh",
+      "districts": [
+        {
+          "code": "AGRA",
+          "name": "Agra",
+          "cities": [
+            "Agra City",
+            "Agra Town",
+            "Agra Rural"
+          ]
+        },
+        {
+          "code": "ALIGARH",
+          "name": "Aligarh",
+          "cities": [
+            "Aligarh City",
+            "Aligarh Town",
+            "Aligarh Rural"
+          ]
+        },
+        {
+          "code": "AMBEDKAR_NAG",
+          "name": "Ambedkar Nagar",
+          "cities": [
+            "Ambedkar Nagar City",
+            "Ambedkar Nagar Town",
+            "Ambedkar Nagar Rural"
+          ]
+        },
+        {
+          "code": "AMETHI",
+          "name": "Amethi",
+          "cities": [
+            "Amethi City",
+            "Amethi Town",
+            "Amethi Rural"
+          ]
+        },
+        {
+          "code": "AMROHA",
+          "name": "Amroha",
+          "cities": [
+            "Amroha City",
+            "Amroha Town",
+            "Amroha Rural"
+          ]
+        },
+        {
+          "code": "AURAIYA",
+          "name": "Auraiya",
+          "cities": [
+            "Auraiya City",
+            "Auraiya Town",
+            "Auraiya Rural"
+          ]
+        },
+        {
+          "code": "AYODHYA",
+          "name": "Ayodhya",
+          "cities": [
+            "Ayodhya City",
+            "Ayodhya Town",
+            "Ayodhya Rural"
+          ]
+        },
+        {
+          "code": "AZAMGARH",
+          "name": "Azamgarh",
+          "cities": [
+            "Azamgarh City",
+            "Azamgarh Town",
+            "Azamgarh Rural"
+          ]
+        },
+        {
+          "code": "BAGHPAT",
+          "name": "Baghpat",
+          "cities": [
+            "Baghpat City",
+            "Baghpat Town",
+            "Baghpat Rural"
+          ]
+        },
+        {
+          "code": "BAHRAICH",
+          "name": "Bahraich",
+          "cities": [
+            "Bahraich City",
+            "Bahraich Town",
+            "Bahraich Rural"
+          ]
+        },
+        {
+          "code": "BALLIA",
+          "name": "Ballia",
+          "cities": [
+            "Ballia City",
+            "Ballia Town",
+            "Ballia Rural"
+          ]
+        },
+        {
+          "code": "BALRAMPUR",
+          "name": "Balrampur",
+          "cities": [
+            "Balrampur City",
+            "Balrampur Town",
+            "Balrampur Rural"
+          ]
+        },
+        {
+          "code": "BANDA",
+          "name": "Banda",
+          "cities": [
+            "Banda City",
+            "Banda Town",
+            "Banda Rural"
+          ]
+        },
+        {
+          "code": "BARABANKI",
+          "name": "Barabanki",
+          "cities": [
+            "Barabanki City",
+            "Barabanki Town",
+            "Barabanki Rural"
+          ]
+        },
+        {
+          "code": "BAREILLY",
+          "name": "Bareilly",
+          "cities": [
+            "Bareilly City",
+            "Bareilly Town",
+            "Bareilly Rural"
+          ]
+        },
+        {
+          "code": "BASTI",
+          "name": "Basti",
+          "cities": [
+            "Basti City",
+            "Basti Town",
+            "Basti Rural"
+          ]
+        },
+        {
+          "code": "BHADOHI",
+          "name": "Bhadohi",
+          "cities": [
+            "Bhadohi City",
+            "Bhadohi Town",
+            "Bhadohi Rural"
+          ]
+        },
+        {
+          "code": "BIJNOR",
+          "name": "Bijnor",
+          "cities": [
+            "Bijnor City",
+            "Bijnor Town",
+            "Bijnor Rural"
+          ]
+        },
+        {
+          "code": "BUDAUN",
+          "name": "Budaun",
+          "cities": [
+            "Budaun City",
+            "Budaun Town",
+            "Budaun Rural"
+          ]
+        },
+        {
+          "code": "BULANDSHAHR",
+          "name": "Bulandshahr",
+          "cities": [
+            "Bulandshahr City",
+            "Bulandshahr Town",
+            "Bulandshahr Rural"
+          ]
+        },
+        {
+          "code": "CHANDAULI",
+          "name": "Chandauli",
+          "cities": [
+            "Chandauli City",
+            "Chandauli Town",
+            "Chandauli Rural"
+          ]
+        },
+        {
+          "code": "CHITRAKOOT",
+          "name": "Chitrakoot",
+          "cities": [
+            "Chitrakoot City",
+            "Chitrakoot Town",
+            "Chitrakoot Rural"
+          ]
+        },
+        {
+          "code": "DEORIA",
+          "name": "Deoria",
+          "cities": [
+            "Deoria City",
+            "Deoria Town",
+            "Deoria Rural"
+          ]
+        },
+        {
+          "code": "ETAH",
+          "name": "Etah",
+          "cities": [
+            "Etah City",
+            "Etah Town",
+            "Etah Rural"
+          ]
+        },
+        {
+          "code": "ETAWAH",
+          "name": "Etawah",
+          "cities": [
+            "Etawah City",
+            "Etawah Town",
+            "Etawah Rural"
+          ]
+        },
+        {
+          "code": "FARRUKHABAD",
+          "name": "Farrukhabad",
+          "cities": [
+            "Farrukhabad City",
+            "Farrukhabad Town",
+            "Farrukhabad Rural"
+          ]
+        },
+        {
+          "code": "FATEHPUR",
+          "name": "Fatehpur",
+          "cities": [
+            "Fatehpur City",
+            "Fatehpur Town",
+            "Fatehpur Rural"
+          ]
+        },
+        {
+          "code": "FIROZABAD",
+          "name": "Firozabad",
+          "cities": [
+            "Firozabad City",
+            "Firozabad Town",
+            "Firozabad Rural"
+          ]
+        },
+        {
+          "code": "GAUTAM_BUDDH",
+          "name": "Gautam Buddha Nagar",
+          "cities": [
+            "Gautam Buddha Nagar City",
+            "Gautam Buddha Nagar Town",
+            "Gautam Buddha Nagar Rural"
+          ]
+        },
+        {
+          "code": "GHAZIABAD",
+          "name": "Ghaziabad",
+          "cities": [
+            "Ghaziabad City",
+            "Ghaziabad Town",
+            "Ghaziabad Rural"
+          ]
+        },
+        {
+          "code": "GHAZIPUR",
+          "name": "Ghazipur",
+          "cities": [
+            "Ghazipur City",
+            "Ghazipur Town",
+            "Ghazipur Rural"
+          ]
+        },
+        {
+          "code": "GONDA",
+          "name": "Gonda",
+          "cities": [
+            "Gonda City",
+            "Gonda Town",
+            "Gonda Rural"
+          ]
+        },
+        {
+          "code": "GORAKHPUR",
+          "name": "Gorakhpur",
+          "cities": [
+            "Gorakhpur City",
+            "Gorakhpur Town",
+            "Gorakhpur Rural"
+          ]
+        },
+        {
+          "code": "HAMIRPUR",
+          "name": "Hamirpur",
+          "cities": [
+            "Hamirpur City",
+            "Hamirpur Town",
+            "Hamirpur Rural"
+          ]
+        },
+        {
+          "code": "HAPUR",
+          "name": "Hapur",
+          "cities": [
+            "Hapur City",
+            "Hapur Town",
+            "Hapur Rural"
+          ]
+        },
+        {
+          "code": "HARDOI",
+          "name": "Hardoi",
+          "cities": [
+            "Hardoi City",
+            "Hardoi Town",
+            "Hardoi Rural"
+          ]
+        },
+        {
+          "code": "HATHRAS",
+          "name": "Hathras",
+          "cities": [
+            "Hathras City",
+            "Hathras Town",
+            "Hathras Rural"
+          ]
+        },
+        {
+          "code": "JALAUN",
+          "name": "Jalaun",
+          "cities": [
+            "Jalaun City",
+            "Jalaun Town",
+            "Jalaun Rural"
+          ]
+        },
+        {
+          "code": "JAUNPUR",
+          "name": "Jaunpur",
+          "cities": [
+            "Jaunpur City",
+            "Jaunpur Town",
+            "Jaunpur Rural"
+          ]
+        },
+        {
+          "code": "JHANSI",
+          "name": "Jhansi",
+          "cities": [
+            "Jhansi City",
+            "Jhansi Town",
+            "Jhansi Rural"
+          ]
+        },
+        {
+          "code": "KANNAUJ",
+          "name": "Kannauj",
+          "cities": [
+            "Kannauj City",
+            "Kannauj Town",
+            "Kannauj Rural"
+          ]
+        },
+        {
+          "code": "KANPUR_DEHAT",
+          "name": "Kanpur Dehat",
+          "cities": [
+            "Kanpur Dehat City",
+            "Kanpur Dehat Town",
+            "Kanpur Dehat Rural"
+          ]
+        },
+        {
+          "code": "KANPUR_NAGAR",
+          "name": "Kanpur Nagar",
+          "cities": [
+            "Kanpur Nagar City",
+            "Kanpur Nagar Town",
+            "Kanpur Nagar Rural"
+          ]
+        },
+        {
+          "code": "KASGANJ",
+          "name": "Kasganj",
+          "cities": [
+            "Kasganj City",
+            "Kasganj Town",
+            "Kasganj Rural"
+          ]
+        },
+        {
+          "code": "KAUSHAMBI",
+          "name": "Kaushambi",
+          "cities": [
+            "Kaushambi City",
+            "Kaushambi Town",
+            "Kaushambi Rural"
+          ]
+        },
+        {
+          "code": "KHERI",
+          "name": "Kheri",
+          "cities": [
+            "Kheri City",
+            "Kheri Town",
+            "Kheri Rural"
+          ]
+        },
+        {
+          "code": "KUSHINAGAR",
+          "name": "Kushinagar",
+          "cities": [
+            "Kushinagar City",
+            "Kushinagar Town",
+            "Kushinagar Rural"
+          ]
+        },
+        {
+          "code": "LALITPUR",
+          "name": "Lalitpur",
+          "cities": [
+            "Lalitpur City",
+            "Lalitpur Town",
+            "Lalitpur Rural"
+          ]
+        },
+        {
+          "code": "LUCKNOW",
+          "name": "Lucknow",
+          "cities": [
+            "Lucknow City",
+            "Lucknow Town",
+            "Lucknow Rural"
+          ]
+        },
+        {
+          "code": "MAHARAJGANJ",
+          "name": "Maharajganj",
+          "cities": [
+            "Maharajganj City",
+            "Maharajganj Town",
+            "Maharajganj Rural"
+          ]
+        },
+        {
+          "code": "MAHOBA",
+          "name": "Mahoba",
+          "cities": [
+            "Mahoba City",
+            "Mahoba Town",
+            "Mahoba Rural"
+          ]
+        },
+        {
+          "code": "MAINPURI",
+          "name": "Mainpuri",
+          "cities": [
+            "Mainpuri City",
+            "Mainpuri Town",
+            "Mainpuri Rural"
+          ]
+        },
+        {
+          "code": "MATHURA",
+          "name": "Mathura",
+          "cities": [
+            "Mathura City",
+            "Mathura Town",
+            "Mathura Rural"
+          ]
+        },
+        {
+          "code": "MAU",
+          "name": "Mau",
+          "cities": [
+            "Mau City",
+            "Mau Town",
+            "Mau Rural"
+          ]
+        },
+        {
+          "code": "MEERUT",
+          "name": "Meerut",
+          "cities": [
+            "Meerut City",
+            "Meerut Town",
+            "Meerut Rural"
+          ]
+        },
+        {
+          "code": "MIRZAPUR",
+          "name": "Mirzapur",
+          "cities": [
+            "Mirzapur City",
+            "Mirzapur Town",
+            "Mirzapur Rural"
+          ]
+        },
+        {
+          "code": "MORADABAD",
+          "name": "Moradabad",
+          "cities": [
+            "Moradabad City",
+            "Moradabad Town",
+            "Moradabad Rural"
+          ]
+        },
+        {
+          "code": "MUZAFFARNAGA",
+          "name": "Muzaffarnagar",
+          "cities": [
+            "Muzaffarnagar City",
+            "Muzaffarnagar Town",
+            "Muzaffarnagar Rural"
+          ]
+        },
+        {
+          "code": "PILIBHIT",
+          "name": "Pilibhit",
+          "cities": [
+            "Pilibhit City",
+            "Pilibhit Town",
+            "Pilibhit Rural"
+          ]
+        },
+        {
+          "code": "PRATAPGARH",
+          "name": "Pratapgarh",
+          "cities": [
+            "Pratapgarh City",
+            "Pratapgarh Town",
+            "Pratapgarh Rural"
+          ]
+        },
+        {
+          "code": "PRAYAGRAJ",
+          "name": "Prayagraj",
+          "cities": [
+            "Prayagraj City",
+            "Prayagraj Town",
+            "Prayagraj Rural"
+          ]
+        },
+        {
+          "code": "RAEBARELI",
+          "name": "Raebareli",
+          "cities": [
+            "Raebareli City",
+            "Raebareli Town",
+            "Raebareli Rural"
+          ]
+        },
+        {
+          "code": "RAMPUR",
+          "name": "Rampur",
+          "cities": [
+            "Rampur City",
+            "Rampur Town",
+            "Rampur Rural"
+          ]
+        },
+        {
+          "code": "SAHARANPUR",
+          "name": "Saharanpur",
+          "cities": [
+            "Saharanpur City",
+            "Saharanpur Town",
+            "Saharanpur Rural"
+          ]
+        },
+        {
+          "code": "SAMBHAL",
+          "name": "Sambhal",
+          "cities": [
+            "Sambhal City",
+            "Sambhal Town",
+            "Sambhal Rural"
+          ]
+        },
+        {
+          "code": "SANT_KABIR_N",
+          "name": "Sant Kabir Nagar",
+          "cities": [
+            "Sant Kabir Nagar City",
+            "Sant Kabir Nagar Town",
+            "Sant Kabir Nagar Rural"
+          ]
+        },
+        {
+          "code": "SHAHJAHANPUR",
+          "name": "Shahjahanpur",
+          "cities": [
+            "Shahjahanpur City",
+            "Shahjahanpur Town",
+            "Shahjahanpur Rural"
+          ]
+        },
+        {
+          "code": "SHAMLI",
+          "name": "Shamli",
+          "cities": [
+            "Shamli City",
+            "Shamli Town",
+            "Shamli Rural"
+          ]
+        },
+        {
+          "code": "SHRAVASTI",
+          "name": "Shravasti",
+          "cities": [
+            "Shravasti City",
+            "Shravasti Town",
+            "Shravasti Rural"
+          ]
+        },
+        {
+          "code": "SIDDHARTHNAG",
+          "name": "Siddharthnagar",
+          "cities": [
+            "Siddharthnagar City",
+            "Siddharthnagar Town",
+            "Siddharthnagar Rural"
+          ]
+        },
+        {
+          "code": "SITAPUR",
+          "name": "Sitapur",
+          "cities": [
+            "Sitapur City",
+            "Sitapur Town",
+            "Sitapur Rural"
+          ]
+        },
+        {
+          "code": "SONBHADRA",
+          "name": "Sonbhadra",
+          "cities": [
+            "Sonbhadra City",
+            "Sonbhadra Town",
+            "Sonbhadra Rural"
+          ]
+        },
+        {
+          "code": "SULTANPUR",
+          "name": "Sultanpur",
+          "cities": [
+            "Sultanpur City",
+            "Sultanpur Town",
+            "Sultanpur Rural"
+          ]
+        },
+        {
+          "code": "UNNAO",
+          "name": "Unnao",
+          "cities": [
+            "Unnao City",
+            "Unnao Town",
+            "Unnao Rural"
+          ]
+        },
+        {
+          "code": "VARANASI",
+          "name": "Varanasi",
+          "cities": [
+            "Varanasi City",
+            "Varanasi Town",
+            "Varanasi Rural"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "UTTARAKHAN",
+      "name": "Uttarakhand",
+      "districts": [
+        {
+          "code": "ALMORA",
+          "name": "Almora",
+          "cities": [
+            "Almora City",
+            "Almora Town",
+            "Almora Rural"
+          ]
+        },
+        {
+          "code": "BAGESHWAR",
+          "name": "Bageshwar",
+          "cities": [
+            "Bageshwar City",
+            "Bageshwar Town",
+            "Bageshwar Rural"
+          ]
+        },
+        {
+          "code": "CHAMOLI",
+          "name": "Chamoli",
+          "cities": [
+            "Chamoli City",
+            "Chamoli Town",
+            "Chamoli Rural"
+          ]
+        },
+        {
+          "code": "CHAMPAWAT",
+          "name": "Champawat",
+          "cities": [
+            "Champawat City",
+            "Champawat Town",
+            "Champawat Rural"
+          ]
+        },
+        {
+          "code": "DEHRADUN",
+          "name": "Dehradun",
+          "cities": [
+            "Dehradun City",
+            "Dehradun Town",
+            "Dehradun Rural"
+          ]
+        },
+        {
+          "code": "HARIDWAR",
+          "name": "Haridwar",
+          "cities": [
+            "Haridwar City",
+            "Haridwar Town",
+            "Haridwar Rural"
+          ]
+        },
+        {
+          "code": "NAINITAL",
+          "name": "Nainital",
+          "cities": [
+            "Nainital City",
+            "Nainital Town",
+            "Nainital Rural"
+          ]
+        },
+        {
+          "code": "PAURI_GARHWA",
+          "name": "Pauri Garhwal",
+          "cities": [
+            "Pauri Garhwal City",
+            "Pauri Garhwal Town",
+            "Pauri Garhwal Rural"
+          ]
+        },
+        {
+          "code": "PITHORAGARH",
+          "name": "Pithoragarh",
+          "cities": [
+            "Pithoragarh City",
+            "Pithoragarh Town",
+            "Pithoragarh Rural"
+          ]
+        },
+        {
+          "code": "RUDRAPRAYAG",
+          "name": "Rudraprayag",
+          "cities": [
+            "Rudraprayag City",
+            "Rudraprayag Town",
+            "Rudraprayag Rural"
+          ]
+        },
+        {
+          "code": "TEHRI_GARHWA",
+          "name": "Tehri Garhwal",
+          "cities": [
+            "Tehri Garhwal City",
+            "Tehri Garhwal Town",
+            "Tehri Garhwal Rural"
+          ]
+        },
+        {
+          "code": "UDHAM_SINGH_",
+          "name": "Udham Singh Nagar",
+          "cities": [
+            "Udham Singh Nagar City",
+            "Udham Singh Nagar Town",
+            "Udham Singh Nagar Rural"
+          ]
+        },
+        {
+          "code": "UTTARKASHI",
+          "name": "Uttarkashi",
+          "cities": [
+            "Uttarkashi City",
+            "Uttarkashi Town",
+            "Uttarkashi Rural"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "WEST_BENGA",
+      "name": "West Bengal",
+      "districts": [
+        {
+          "code": "ALIPURDUAR",
+          "name": "Alipurduar",
+          "cities": [
+            "Alipurduar City",
+            "Alipurduar Town",
+            "Alipurduar Rural"
+          ]
+        },
+        {
+          "code": "BANKURA",
+          "name": "Bankura",
+          "cities": [
+            "Bankura City",
+            "Bankura Town",
+            "Bankura Rural"
+          ]
+        },
+        {
+          "code": "BIRBHUM",
+          "name": "Birbhum",
+          "cities": [
+            "Birbhum City",
+            "Birbhum Town",
+            "Birbhum Rural"
+          ]
+        },
+        {
+          "code": "COOCH_BEHAR",
+          "name": "Cooch Behar",
+          "cities": [
+            "Cooch Behar City",
+            "Cooch Behar Town",
+            "Cooch Behar Rural"
+          ]
+        },
+        {
+          "code": "DAKSHIN_DINA",
+          "name": "Dakshin Dinajpur",
+          "cities": [
+            "Dakshin Dinajpur City",
+            "Dakshin Dinajpur Town",
+            "Dakshin Dinajpur Rural"
+          ]
+        },
+        {
+          "code": "DARJEELING",
+          "name": "Darjeeling",
+          "cities": [
+            "Darjeeling City",
+            "Darjeeling Town",
+            "Darjeeling Rural"
+          ]
+        },
+        {
+          "code": "HOOGHLY",
+          "name": "Hooghly",
+          "cities": [
+            "Hooghly City",
+            "Hooghly Town",
+            "Hooghly Rural"
+          ]
+        },
+        {
+          "code": "HOWRAH",
+          "name": "Howrah",
+          "cities": [
+            "Howrah City",
+            "Howrah Town",
+            "Howrah Rural"
+          ]
+        },
+        {
+          "code": "JALPAIGURI",
+          "name": "Jalpaiguri",
+          "cities": [
+            "Jalpaiguri City",
+            "Jalpaiguri Town",
+            "Jalpaiguri Rural"
+          ]
+        },
+        {
+          "code": "JHARGRAM",
+          "name": "Jhargram",
+          "cities": [
+            "Jhargram City",
+            "Jhargram Town",
+            "Jhargram Rural"
+          ]
+        },
+        {
+          "code": "KALIMPONG",
+          "name": "Kalimpong",
+          "cities": [
+            "Kalimpong City",
+            "Kalimpong Town",
+            "Kalimpong Rural"
+          ]
+        },
+        {
+          "code": "KOLKATA",
+          "name": "Kolkata",
+          "cities": [
+            "Kolkata City",
+            "Kolkata Town",
+            "Kolkata Rural"
+          ]
+        },
+        {
+          "code": "MALDA",
+          "name": "Malda",
+          "cities": [
+            "Malda City",
+            "Malda Town",
+            "Malda Rural"
+          ]
+        },
+        {
+          "code": "MURSHIDABAD",
+          "name": "Murshidabad",
+          "cities": [
+            "Murshidabad City",
+            "Murshidabad Town",
+            "Murshidabad Rural"
+          ]
+        },
+        {
+          "code": "NADIA",
+          "name": "Nadia",
+          "cities": [
+            "Nadia City",
+            "Nadia Town",
+            "Nadia Rural"
+          ]
+        },
+        {
+          "code": "NORTH_24_PAR",
+          "name": "North 24 Parganas",
+          "cities": [
+            "North 24 Parganas City",
+            "North 24 Parganas Town",
+            "North 24 Parganas Rural"
+          ]
+        },
+        {
+          "code": "PASCHIM_BARD",
+          "name": "Paschim Bardhaman",
+          "cities": [
+            "Paschim Bardhaman City",
+            "Paschim Bardhaman Town",
+            "Paschim Bardhaman Rural"
+          ]
+        },
+        {
+          "code": "PASCHIM_MEDI",
+          "name": "Paschim Medinipur",
+          "cities": [
+            "Paschim Medinipur City",
+            "Paschim Medinipur Town",
+            "Paschim Medinipur Rural"
+          ]
+        },
+        {
+          "code": "PURBA_BARDHA",
+          "name": "Purba Bardhaman",
+          "cities": [
+            "Purba Bardhaman City",
+            "Purba Bardhaman Town",
+            "Purba Bardhaman Rural"
+          ]
+        },
+        {
+          "code": "PURBA_MEDINI",
+          "name": "Purba Medinipur",
+          "cities": [
+            "Purba Medinipur City",
+            "Purba Medinipur Town",
+            "Purba Medinipur Rural"
+          ]
+        },
+        {
+          "code": "PURULIA",
+          "name": "Purulia",
+          "cities": [
+            "Purulia City",
+            "Purulia Town",
+            "Purulia Rural"
+          ]
+        },
+        {
+          "code": "SOUTH_24_PAR",
+          "name": "South 24 Parganas",
+          "cities": [
+            "South 24 Parganas City",
+            "South 24 Parganas Town",
+            "South 24 Parganas Rural"
+          ]
+        },
+        {
+          "code": "UTTAR_DINAJP",
+          "name": "Uttar Dinajpur",
+          "cities": [
+            "Uttar Dinajpur City",
+            "Uttar Dinajpur Town",
+            "Uttar Dinajpur Rural"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "DELHI",
+      "name": "Delhi",
+      "districts": [
+        {
+          "code": "CENTRAL_DELH",
+          "name": "Central Delhi",
+          "cities": [
+            "Central Delhi City",
+            "Central Delhi Town",
+            "Central Delhi Rural"
+          ]
+        },
+        {
+          "code": "EAST_DELHI",
+          "name": "East Delhi",
+          "cities": [
+            "East Delhi City",
+            "East Delhi Town",
+            "East Delhi Rural"
+          ]
+        },
+        {
+          "code": "NEW_DELHI",
+          "name": "New Delhi",
+          "cities": [
+            "New Delhi City",
+            "New Delhi Town",
+            "New Delhi Rural"
+          ]
+        },
+        {
+          "code": "NORTH_DELHI",
+          "name": "North Delhi",
+          "cities": [
+            "North Delhi City",
+            "North Delhi Town",
+            "North Delhi Rural"
+          ]
+        },
+        {
+          "code": "NORTH_EAST_D",
+          "name": "North East Delhi",
+          "cities": [
+            "North East Delhi City",
+            "North East Delhi Town",
+            "North East Delhi Rural"
+          ]
+        },
+        {
+          "code": "NORTH_WEST_D",
+          "name": "North West Delhi",
+          "cities": [
+            "North West Delhi City",
+            "North West Delhi Town",
+            "North West Delhi Rural"
+          ]
+        },
+        {
+          "code": "SHAHDARA",
+          "name": "Shahdara",
+          "cities": [
+            "Shahdara City",
+            "Shahdara Town",
+            "Shahdara Rural"
+          ]
+        },
+        {
+          "code": "SOUTH_DELHI",
+          "name": "South Delhi",
+          "cities": [
+            "South Delhi City",
+            "South Delhi Town",
+            "South Delhi Rural"
+          ]
+        },
+        {
+          "code": "SOUTH_EAST_D",
+          "name": "South East Delhi",
+          "cities": [
+            "South East Delhi City",
+            "South East Delhi Town",
+            "South East Delhi Rural"
+          ]
+        },
+        {
+          "code": "SOUTH_WEST_D",
+          "name": "South West Delhi",
+          "cities": [
+            "South West Delhi City",
+            "South West Delhi Town",
+            "South West Delhi Rural"
+          ]
+        },
+        {
+          "code": "WEST_DELHI",
+          "name": "West Delhi",
+          "cities": [
+            "West Delhi City",
+            "West Delhi Town",
+            "West Delhi Rural"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "JAMMU_AND_",
+      "name": "Jammu and Kashmir",
+      "districts": [
+        {
+          "code": "ANANTNAG",
+          "name": "Anantnag",
+          "cities": [
+            "Anantnag City",
+            "Anantnag Town",
+            "Anantnag Rural"
+          ]
+        },
+        {
+          "code": "BANDIPORA",
+          "name": "Bandipora",
+          "cities": [
+            "Bandipora City",
+            "Bandipora Town",
+            "Bandipora Rural"
+          ]
+        },
+        {
+          "code": "BARAMULLA",
+          "name": "Baramulla",
+          "cities": [
+            "Baramulla City",
+            "Baramulla Town",
+            "Baramulla Rural"
+          ]
+        },
+        {
+          "code": "BUDGAM",
+          "name": "Budgam",
+          "cities": [
+            "Budgam City",
+            "Budgam Town",
+            "Budgam Rural"
+          ]
+        },
+        {
+          "code": "DODA",
+          "name": "Doda",
+          "cities": [
+            "Doda City",
+            "Doda Town",
+            "Doda Rural"
+          ]
+        },
+        {
+          "code": "GANDERBAL",
+          "name": "Ganderbal",
+          "cities": [
+            "Ganderbal City",
+            "Ganderbal Town",
+            "Ganderbal Rural"
+          ]
+        },
+        {
+          "code": "JAMMU",
+          "name": "Jammu",
+          "cities": [
+            "Jammu City",
+            "Jammu Town",
+            "Jammu Rural"
+          ]
+        },
+        {
+          "code": "KATHUA",
+          "name": "Kathua",
+          "cities": [
+            "Kathua City",
+            "Kathua Town",
+            "Kathua Rural"
+          ]
+        },
+        {
+          "code": "KISHTWAR",
+          "name": "Kishtwar",
+          "cities": [
+            "Kishtwar City",
+            "Kishtwar Town",
+            "Kishtwar Rural"
+          ]
+        },
+        {
+          "code": "KULGAM",
+          "name": "Kulgam",
+          "cities": [
+            "Kulgam City",
+            "Kulgam Town",
+            "Kulgam Rural"
+          ]
+        },
+        {
+          "code": "KUPWARA",
+          "name": "Kupwara",
+          "cities": [
+            "Kupwara City",
+            "Kupwara Town",
+            "Kupwara Rural"
+          ]
+        },
+        {
+          "code": "POONCH",
+          "name": "Poonch",
+          "cities": [
+            "Poonch City",
+            "Poonch Town",
+            "Poonch Rural"
+          ]
+        },
+        {
+          "code": "PULWAMA",
+          "name": "Pulwama",
+          "cities": [
+            "Pulwama City",
+            "Pulwama Town",
+            "Pulwama Rural"
+          ]
+        },
+        {
+          "code": "RAJOURI",
+          "name": "Rajouri",
+          "cities": [
+            "Rajouri City",
+            "Rajouri Town",
+            "Rajouri Rural"
+          ]
+        },
+        {
+          "code": "RAMBAN",
+          "name": "Ramban",
+          "cities": [
+            "Ramban City",
+            "Ramban Town",
+            "Ramban Rural"
+          ]
+        },
+        {
+          "code": "REASI",
+          "name": "Reasi",
+          "cities": [
+            "Reasi City",
+            "Reasi Town",
+            "Reasi Rural"
+          ]
+        },
+        {
+          "code": "SAMBA",
+          "name": "Samba",
+          "cities": [
+            "Samba City",
+            "Samba Town",
+            "Samba Rural"
+          ]
+        },
+        {
+          "code": "SHOPIAN",
+          "name": "Shopian",
+          "cities": [
+            "Shopian City",
+            "Shopian Town",
+            "Shopian Rural"
+          ]
+        },
+        {
+          "code": "SRINAGAR",
+          "name": "Srinagar",
+          "cities": [
+            "Srinagar City",
+            "Srinagar Town",
+            "Srinagar Rural"
+          ]
+        },
+        {
+          "code": "UDHAMPUR",
+          "name": "Udhampur",
+          "cities": [
+            "Udhampur City",
+            "Udhampur Town",
+            "Udhampur Rural"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "LADAKH",
+      "name": "Ladakh",
+      "districts": [
+        {
+          "code": "KARGIL",
+          "name": "Kargil",
+          "cities": [
+            "Kargil City",
+            "Kargil Town",
+            "Kargil Rural"
+          ]
+        },
+        {
+          "code": "LEH",
+          "name": "Leh",
+          "cities": [
+            "Leh City",
+            "Leh Town",
+            "Leh Rural"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "CHANDIGARH",
+      "name": "Chandigarh",
+      "districts": [
+        {
+          "code": "CHANDIGARH",
+          "name": "Chandigarh",
+          "cities": [
+            "Chandigarh City",
+            "Chandigarh Town",
+            "Chandigarh Rural"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "PUDUCHERRY",
+      "name": "Puducherry",
+      "districts": [
+        {
+          "code": "KARAIKAL",
+          "name": "Karaikal",
+          "cities": [
+            "Karaikal City",
+            "Karaikal Town",
+            "Karaikal Rural"
+          ]
+        },
+        {
+          "code": "MAHE",
+          "name": "Mahe",
+          "cities": [
+            "Mahe City",
+            "Mahe Town",
+            "Mahe Rural"
+          ]
+        },
+        {
+          "code": "PUDUCHERRY",
+          "name": "Puducherry",
+          "cities": [
+            "Puducherry City",
+            "Puducherry Town",
+            "Puducherry Rural"
+          ]
+        },
+        {
+          "code": "YANAM",
+          "name": "Yanam",
+          "cities": [
+            "Yanam City",
+            "Yanam Town",
+            "Yanam Rural"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "ANDAMAN_AN",
+      "name": "Andaman and Nicobar Islands",
+      "districts": [
+        {
+          "code": "NICOBAR",
+          "name": "Nicobar",
+          "cities": [
+            "Nicobar City",
+            "Nicobar Town",
+            "Nicobar Rural"
+          ]
+        },
+        {
+          "code": "NORTH_AND_MI",
+          "name": "North and Middle Andaman",
+          "cities": [
+            "North and Middle Andaman City",
+            "North and Middle Andaman Town",
+            "North and Middle Andaman Rural"
+          ]
+        },
+        {
+          "code": "SOUTH_ANDAMA",
+          "name": "South Andaman",
+          "cities": [
+            "South Andaman City",
+            "South Andaman Town",
+            "South Andaman Rural"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "LAKSHADWEE",
+      "name": "Lakshadweep",
+      "districts": [
+        {
+          "code": "LAKSHADWEEP",
+          "name": "Lakshadweep",
+          "cities": [
+            "Lakshadweep City",
+            "Lakshadweep Town",
+            "Lakshadweep Rural"
+          ]
+        }
+      ]
+    },
+    {
+      "code": "DADRA_AND_",
+      "name": "Dadra and Nagar Haveli and Daman and Diu",
+      "districts": [
+        {
+          "code": "DADRA_AND_NA",
+          "name": "Dadra and Nagar Haveli",
+          "cities": [
+            "Dadra and Nagar Haveli City",
+            "Dadra and Nagar Haveli Town",
+            "Dadra and Nagar Haveli Rural"
+          ]
+        },
+        {
+          "code": "DAMAN",
+          "name": "Daman",
+          "cities": [
+            "Daman City",
+            "Daman Town",
+            "Daman Rural"
+          ]
+        },
+        {
+          "code": "DIU",
+          "name": "Diu",
+          "cities": [
+            "Diu City",
+            "Diu Town",
+            "Diu Rural"
+          ]
+        }
+      ]
+    }
+  ]
+}
