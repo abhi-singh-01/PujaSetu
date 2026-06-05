@@ -42,8 +42,52 @@ PujaSetu/
 │       ├── routes/
 │       ├── scripts/        # seed, generate-locations
 │       └── utils/
+├── graphify-out/           # Knowledge graph (query before reading many files)
+│   ├── graph.json
+│   └── GRAPH_REPORT.md
 └── README.md
 ```
+
+## Graphify — token minimization (Cursor / AI IDE)
+
+[Graphify](https://github.com/safishamsi/graphify) builds a **queryable knowledge graph** of this codebase so AI assistants use far fewer tokens — they traverse structure instead of re-reading every file.
+
+### One-time setup
+
+```bash
+pip install graphifyy
+graphify cursor install --project   # adds .cursor/rules/graphify.mdc
+graphify update .                   # AST-only build (no API key needed)
+```
+
+### Daily workflow
+
+```bash
+# After code changes (free, no LLM cost)
+graphify update .
+
+# Query instead of grepping the whole repo
+graphify query "how does booking OTP payment work?"
+graphify path "createBooking" "verifyCompletionOtp"
+graphify explain "Provider"
+```
+
+In **Cursor chat**, type `/graphify .` to rebuild, or use the commands above in terminal.
+
+### What gets committed
+
+| File | Purpose |
+|------|---------|
+| `graphify-out/graph.json` | Queryable graph — share with team |
+| `graphify-out/GRAPH_REPORT.md` | Architecture summary |
+| `.cursor/rules/graphify.mdc` | Tells Cursor to query graph first |
+| `.graphifyignore` | Skips node_modules, assets from graph build |
+
+Local-only (in `.gitignore`): `graphify-out/cache/`, `graph.html`, manifest/cost files.
+
+Optional semantic extract for docs/PDFs: set `GEMINI_API_KEY` or `ANTHROPIC_API_KEY`, then `graphify extract .`
+
+---
 
 ## Quick Start (Docker — recommended)
 

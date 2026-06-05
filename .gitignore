@@ -20,16 +20,19 @@ coverage/
 .vscode/
 mobile/.expo-test-bundle/
 
-# AI / IDE tooling (local only — do not commit)
+# Graphify — commit graph.json + GRAPH_REPORT.md; skip local-only outputs
+graphify-out/manifest.json
+graphify-out/cost.json
+graphify-out/cache/
+graphify-out/graph.html
+
+# Other AI IDE clutter (keep Graphify — see .cursor/rules/graphify.mdc)
 .claude/
-.cursor/
+.cursor/rules/token-minimization.mdc
 .cursorignore
-.graphifyignore
-graphify-out/
 AGENTS.md
 CLAUDE.md
 RESUME_TOMORROW.md
-scripts/setup-graphify.ps1
 mobile/AGENTS.md
 mobile/CLAUDE.md
 mobile/.claude/
