@@ -45,32 +45,6 @@ PujaSetu/
 └── README.md
 ```
 
-## Graphify + token minimization (Cursor / AI IDE)
-
-This repo includes a **queryable knowledge graph** so the AI editor uses fewer tokens (navigate structure instead of re-reading every file).
-
-```bash
-pip install graphifyy
-graphify cursor install --project
-graphify update .                    # AST-only build (no API key)
-graphify query "how does booking OTP payment work?"
-```
-
-After code changes: `graphify update .`
-
-| File | Purpose |
-|------|---------|
-| `graphify-out/graph.json` | Queryable graph (commit to git for team) |
-| `graphify-out/GRAPH_REPORT.md` | Architecture summary |
-| `.cursor/rules/graphify.mdc` | Cursor: query graph first |
-| `.cursor/rules/token-minimization.mdc` | Cursor: scope + skip rules |
-| `.cursorignore` | Exclude node_modules, cache, large JSON from indexing |
-| `AGENTS.md` | Agent quick reference |
-
-Optional full semantic extract (docs/images): set `GEMINI_API_KEY` or `ANTHROPIC_API_KEY`, then `graphify extract .`
-
----
-
 ## Quick Start (Docker — recommended)
 
 ```bash
@@ -141,10 +115,13 @@ npm run seed
 ```bash
 cd mobile
 cp .env.example .env
-# Set EXPO_PUBLIC_API_URL to your API (see below)
 npm install
-npx expo start
+npm run start:clear
 ```
+
+When Expo asks to log in, choose **Proceed anonymously**. Scan the QR code with **Expo Go** (phone and PC on same Wi‑Fi).
+
+If the app does not load on phone, try tunnel mode: `npm run start:tunnel`
 
 **API URL for devices:**
 

@@ -20,10 +20,20 @@ coverage/
 .vscode/
 mobile/.expo-test-bundle/
 
-# Graphify local-only
-graphify-out/manifest.json
-graphify-out/cost.json
-graphify-out/cache/
+# AI / IDE tooling (local only — do not commit)
+.claude/
+.cursor/
+.cursorignore
+.graphifyignore
+graphify-out/
+AGENTS.md
+CLAUDE.md
+RESUME_TOMORROW.md
+scripts/setup-graphify.ps1
+mobile/AGENTS.md
+mobile/CLAUDE.md
+mobile/.claude/
+mobile/START_APP.md
 
 # OS
 Thumbs.db
