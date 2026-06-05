@@ -8,7 +8,8 @@ coverage/
 *.log
 
 # Large generated location data (query via API, not graph)
-backend/src/data/india-locations.json
+backend/src/main/resources/data/india-locations.json
+backend/target/
 
 # Lock files
 package-lock.json

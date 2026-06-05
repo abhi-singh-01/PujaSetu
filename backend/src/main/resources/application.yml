@@ -1,0 +1,68 @@
+spring:
+  application:
+    name: pujasetu-backend
+  profiles:
+    active: ${SPRING_PROFILES_ACTIVE:dev}
+  data:
+    mongodb:
+      uri: ${MONGODB_URI:mongodb://localhost:27017/pujasetu}
+  servlet:
+    multipart:
+      max-file-size: 10MB
+      max-request-size: 10MB
+
+server:
+  port: ${PORT:5000}
+  address: 0.0.0.0
+
+pujasetu:
+  jwt:
+    secret: ${JWT_SECRET:your-super-secret-jwt-key-change-in-production-min-32-chars}
+    access-expiration-ms: ${JWT_ACCESS_EXPIRATION_MS:604800000}
+    refresh-expiration-ms: ${JWT_REFRESH_EXPIRATION_MS:2592000000}
+  otp:
+    expiry-minutes: ${OTP_EXPIRY_MINUTES:10}
+    dev-bypass: ${DEV_OTP_BYPASS:true}
+    dev-code: ${DEV_OTP_CODE:123456}
+  payment:
+    advance-percent: ${ADVANCE_PAYMENT_PERCENT:15}
+    completion-otp-expiry-minutes: ${COMPLETION_OTP_EXPIRY_MINUTES:30}
+  cors:
+    allowed-origins: ${CLIENT_URL:http://localhost:8081,http://localhost:19006}
+  razorpay:
+    key-id: ${RAZORPAY_KEY_ID:}
+    key-secret: ${RAZORPAY_KEY_SECRET:}
+  cloudinary:
+    cloud-name: ${CLOUDINARY_CLOUD_NAME:}
+    api-key: ${CLOUDINARY_API_KEY:}
+    api-secret: ${CLOUDINARY_API_SECRET:}
+  firebase:
+    credentials-path: ${FIREBASE_CREDENTIALS_PATH:}
+  digilocker:
+    client-id: ${DIGILOCKER_CLIENT_ID:}
+    client-secret: ${DIGILOCKER_CLIENT_SECRET:}
+    redirect-uri: ${DIGILOCKER_REDIRECT_URI:http://localhost:5000/api/auth/digilocker/callback}
+  twilio:
+    account-sid: ${TWILIO_ACCOUNT_SID:}
+    auth-token: ${TWILIO_AUTH_TOKEN:}
+    phone-number: ${TWILIO_PHONE_NUMBER:}
+  seed:
+    enabled: ${SEED_ENABLED:false}
+
+springdoc:
+  api-docs:
+    path: /api-docs
+  swagger-ui:
+    path: /swagger-ui.html
+    tags-sorter: alpha
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info
+
+logging:
+  level:
+    com.pujasetu: INFO
+    org.springframework.security: WARN

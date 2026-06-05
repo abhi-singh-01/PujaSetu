@@ -1,3 +1,7 @@
+# Maven / Java
+backend/target/
+**/*.class
+
 # Dependencies
 node_modules/
 **/node_modules/
@@ -19,6 +23,7 @@ coverage/
 .idea/
 .vscode/
 mobile/.expo-test-bundle/
+.expo-test-bundle/
 
 # Graphify — commit graph.json + GRAPH_REPORT.md; skip local-only outputs
 graphify-out/manifest.json

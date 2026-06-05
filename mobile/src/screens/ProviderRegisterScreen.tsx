@@ -1,17 +1,18 @@
 import React, { useState } from 'react';
 import { View, ScrollView, Alert, Text, TouchableOpacity } from 'react-native';
-import * as ImagePicker from 'expo-image-picker';
 import Header from '../components/Header';
 import Input from '../components/Input';
 import Button from '../components/Button';
+import { useAppSelector } from '../hooks/useAppDispatch';
 import { registerProvider } from '../api/providerApi';
 import { PANDIT_SERVICES, NAU_SERVICES } from '../constants/services';
 
 interface Props {
-  navigation: { goBack: () => void };
+  navigation: { goBack: () => void; navigate: (screen: string) => void };
 }
 
 export default function ProviderRegisterScreen({ navigation }: Props) {
+  const { isAuthenticated } = useAppSelector((s) => s.auth);
   const [providerType, setProviderType] = useState<'pandit' | 'nau'>('pandit');
   const [fullName, setFullName] = useState('');
   const [experienceYears, setExperienceYears] = useState('5');
@@ -29,6 +30,12 @@ export default function ProviderRegisterScreen({ navigation }: Props) {
     : NAU_SERVICES.map((s) => s.label);
 
   const submit = async () => {
+    if (!isAuthenticated) {
+      Alert.alert('Login required', 'Please login with OTP first, then register as a provider.', [
+        { text: 'Go to Login', onPress: () => navigation.navigate('Login') },
+      ]);
+      return;
+    }
     if (!fullName) {
       Alert.alert('Required', 'Full name is required');
       return;

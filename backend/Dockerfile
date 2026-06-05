@@ -1,16 +1,12 @@
-FROM node:20-alpine AS base
-
+FROM maven:3.9.9-eclipse-temurin-21 AS build
 WORKDIR /app
-
-RUN apk add --no-cache tini
-
-COPY package*.json ./
-RUN npm ci --omit=dev
-
+COPY pom.xml .
 COPY src ./src
+RUN mvn -DskipTests clean package
 
-ENV NODE_ENV=production
+FROM eclipse-temurin:21-jre
+WORKDIR /app
+COPY --from=build /app/target/pujasetu-backend-1.0.0.jar app.jar
 EXPOSE 5000
-
-ENTRYPOINT ["/sbin/tini", "--"]
-CMD ["node", "src/server.js"]
+ENV PORT=5000
+ENTRYPOINT ["java", "-jar", "app.jar"]

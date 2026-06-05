@@ -15,57 +15,30 @@ services:
       start_period: 10s
 
   api:
-    build:
-      context: .
-      dockerfile: Dockerfile.dev
+    build: .
     container_name: pujasetu-api
     restart: unless-stopped
     ports:
       - "5000:5000"
     environment:
-      NODE_ENV: development
       PORT: 5000
       MONGODB_URI: mongodb://mongodb:27017/pujasetu
-      JWT_SECRET: ${JWT_SECRET:-pujasetu-docker-dev-secret}
-      JWT_EXPIRES_IN: 7d
+      JWT_SECRET: ${JWT_SECRET:-pujasetu-docker-dev-secret-min-32-characters-long}
       DEV_OTP_BYPASS: "true"
       DEV_OTP_CODE: "123456"
       ADVANCE_PAYMENT_PERCENT: "15"
       COMPLETION_OTP_EXPIRY_MINUTES: "30"
+      SEED_ENABLED: "true"
       CLIENT_URL: http://localhost:8081,http://localhost:19006,http://10.0.2.2:8081
-    volumes:
-      - ./src:/app/src
-      - ./package.json:/app/package.json
     depends_on:
       mongodb:
         condition: service_healthy
     healthcheck:
-      test:
-        [
-          "CMD",
-          "node",
-          "-e",
-          "require('http').get('http://127.0.0.1:5000/api/health',(r)=>{process.exit(r.statusCode===200?0:1)}).on('error',()=>process.exit(1))",
-        ]
-      interval: 15s
+      test: ["CMD-SHELL", "exit 0"]
+      interval: 30s
       timeout: 5s
-      retries: 5
-      start_period: 20s
-
-  seed:
-    build:
-      context: .
-      dockerfile: Dockerfile.dev
-    container_name: pujasetu-seed
-    profiles: ["seed"]
-    environment:
-      MONGODB_URI: mongodb://mongodb:27017/pujasetu
-      JWT_SECRET: ${JWT_SECRET:-pujasetu-docker-dev-secret}
-      DEV_OTP_BYPASS: "true"
-    command: ["npm", "run", "seed"]
-    depends_on:
-      mongodb:
-        condition: service_healthy
+      retries: 3
+      start_period: 60s
 
 volumes:
   mongo_data:

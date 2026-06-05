@@ -9,8 +9,8 @@ PujaSetu is an India-wide service booking platform for Hindu rituals and ceremon
 | Layer | Technology |
 |-------|------------|
 | Mobile | React Native (Expo), TypeScript, NativeWind, Redux Toolkit, React Navigation |
-| Backend | Node.js, Express.js |
-| Database | MongoDB (Mongoose) |
+| Backend | Java 21, Spring Boot 3.3, Spring Security, JWT |
+| Database | MongoDB (Spring Data MongoDB) |
 | Auth | OTP + JWT |
 | Payments | Razorpay |
 | Maps | Google Maps / expo-location |
@@ -32,16 +32,18 @@ PujaSetu/
 │       ├── store/          # Redux slices
 │       ├── theme/
 │       └── types/
-├── backend/
-│   └── src/
+├── backend/                # Spring Boot API (Java 21, Maven)
+│   └── src/main/java/com/pujasetu/
 │       ├── config/
-│       ├── controllers/
-│       ├── data/           # india-locations.json (36 states)
-│       ├── middleware/
-│       ├── models/
-│       ├── routes/
-│       ├── scripts/        # seed, generate-locations
-│       └── utils/
+│       ├── controller/
+│       ├── service/
+│       ├── repository/
+│       ├── model/
+│       ├── security/
+│       └── ...
+│   └── src/main/resources/
+│       ├── application.yml
+│       └── data/india-locations.json
 ├── graphify-out/           # Knowledge graph (query before reading many files)
 │   ├── graph.json
 │   └── GRAPH_REPORT.md
@@ -94,18 +96,17 @@ Optional semantic extract for docs/PDFs: set `GEMINI_API_KEY` or `ANTHROPIC_API_
 ```bash
 cd backend
 docker compose up -d --build
-docker compose --profile seed run --rm seed
 ```
 
-API: `http://localhost:5000/api/health`
+API: `http://localhost:5000/api/health`  
+Swagger: `http://localhost:5000/swagger-ui.html`
 
 | Service | Port |
 |---------|------|
 | API | 5000 |
 | MongoDB | 27017 |
 
-Stop: `docker compose down`  
-Production: `docker compose -f docker-compose.prod.yml up -d --build`
+Stop: `docker compose down`
 
 ### Payment flow
 
@@ -125,25 +126,24 @@ Production: `docker compose -f docker-compose.prod.yml up -d --build`
 
 ### Prerequisites
 
-- Node.js 18+
+- Java 21+
+- Maven 3.9+
 - MongoDB (local or Atlas)
 - Expo Go app (for mobile testing)
 
 ### 1. Backend
 
-```bash
+```powershell
 cd backend
 cp .env.example .env
-npm install
-# Start MongoDB, then:
-npm run dev
+$env:MONGODB_URI="mongodb://localhost:27017/pujasetu"
+$env:JWT_SECRET="your-super-secret-jwt-key-change-in-production-min-32-chars"
+$env:DEV_OTP_BYPASS="true"
+$env:SEED_ENABLED="true"
+mvn spring-boot:run
 ```
 
-Seed sample data:
-
-```bash
-npm run seed
-```
+Seed runs automatically when `SEED_ENABLED=true` and the database is empty.
 
 **Test accounts (after seed):**
 
@@ -225,10 +225,14 @@ EXPO_PUBLIC_API_URL=http://10.0.2.2:5000/api
 
 ### Backend (Railway / Render / AWS)
 
-1. Set `MONGODB_URI` to MongoDB Atlas connection string
-2. Set `JWT_SECRET`, `RAZORPAY_*`, `TWILIO_*`, `FIREBASE_SERVER_KEY`
-3. Set `CLIENT_URL` to your app domains
-4. Run `npm start`
+1. Set root directory to `backend`
+2. Build: `mvn -DskipTests clean package`
+3. Start: `java -jar target/pujasetu-backend-1.0.0.jar`
+4. Set `MONGODB_URI`, `JWT_SECRET`, `RAZORPAY_*`, `TWILIO_*`, `CLIENT_URL`
+5. Set `DEV_OTP_BYPASS=false` in production
+6. Health check: `/api/health`
+
+See `backend/README.md` for full deployment steps.
 
 ### Mobile (EAS Build)
 
@@ -258,12 +262,9 @@ Update `app.json` with your EAS project ID and configure push notification crede
 - [ ] **Firebase** – FCM for push; register device token via `PUT /auth/profile`
 - [ ] **Document upload** – S3/Cloudinary for Aadhaar/PAN images
 
-## Regenerate Location Data
+## Location Data
 
-```bash
-cd backend
-node src/scripts/generate-locations.js
-```
+Indian states, districts, and cities are bundled at `backend/src/main/resources/data/india-locations.json` and served via `/api/locations/**`.
 
 ## License
 

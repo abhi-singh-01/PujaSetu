@@ -21,11 +21,16 @@ const initialState: AuthState = {
   hasOnboarded: false,
 };
 
-export const loadSession = createAsyncThunk('auth/loadSession', async () => {
-  const token = await SecureStore.getItemAsync('authToken');
-  if (!token) return { token: null, user: null };
-  const { data } = await getMe();
-  return { token, user: data.user };
+export const loadSession = createAsyncThunk('auth/loadSession', async (_, { rejectWithValue }) => {
+  try {
+    const token = await SecureStore.getItemAsync('authToken');
+    if (!token) return { token: null, user: null };
+    const { data } = await getMe();
+    return { token, user: data.user };
+  } catch (e: unknown) {
+    await SecureStore.deleteItemAsync('authToken');
+    return rejectWithValue((e as Error).message);
+  }
 });
 
 export const sendOtp = createAsyncThunk(
@@ -84,10 +89,11 @@ const authSlice = createSlice({
       })
       .addCase(loadSession.rejected, (state) => {
         state.isLoading = false;
+        state.token = null;
+        state.user = null;
         state.isAuthenticated = false;
       })
       .addCase(loginWithOtp.pending, (state) => {
-        state.isLoading = true;
         state.error = null;
       })
       .addCase(loginWithOtp.fulfilled, (state, action) => {
@@ -97,7 +103,6 @@ const authSlice = createSlice({
         state.isAuthenticated = true;
       })
       .addCase(loginWithOtp.rejected, (state, action) => {
-        state.isLoading = false;
         state.error = action.payload as string;
       })
       .addCase(logout.fulfilled, (state) => {

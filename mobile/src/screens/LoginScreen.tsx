@@ -125,20 +125,24 @@ export default function LoginScreen({ navigation }: Props) {
 
             {step === 'mobile' && (
               <Button
-                title="New user? Add name on next step"
+                title="New user? Tap Send OTP, then enter your name"
                 variant="outline"
-                onPress={() => {
-                  setIsNewUser(true);
-                }}
+                onPress={() => setIsNewUser(true)}
                 className="mt-3"
                 size="sm"
               />
             )}
 
             <Button
-              title="Register as Pandit / Nau"
+              title="Register as Pandit / Nau (login required)"
               variant="ghost"
-              onPress={() => navigation.navigate('ProviderRegister')}
+              onPress={() => {
+                Alert.alert(
+                  'Login first',
+                  'Complete OTP login first. After login, register from Profile → Become a Provider.',
+                  [{ text: 'OK' }]
+                );
+              }}
               className="mt-4"
               size="sm"
             />

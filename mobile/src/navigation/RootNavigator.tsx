@@ -54,19 +54,17 @@ export default function RootNavigator() {
 
   return (
     <NavigationContainer>
-      <Stack.Navigator screenOptions={{ headerShown: false, animation: 'slide_from_right' }}>
+      <Stack.Navigator
+        screenOptions={{ headerShown: false, animation: 'slide_from_right' }}
+        initialRouteName={isAuthenticated ? 'Main' : hasOnboarded ? 'Login' : 'Onboarding'}
+      >
         {!isAuthenticated ? (
           <>
-            {!hasOnboarded ? (
-              <Stack.Screen name="Onboarding">
-                {() => <OnboardingScreen onComplete={completeOnboarding} />}
-              </Stack.Screen>
-            ) : (
-              <>
-                <Stack.Screen name="Login" component={LoginScreen} />
-                <Stack.Screen name="ProviderRegister" component={ProviderRegisterScreen} />
-              </>
-            )}
+            <Stack.Screen name="Onboarding">
+              {() => <OnboardingScreen onComplete={completeOnboarding} />}
+            </Stack.Screen>
+            <Stack.Screen name="Login" component={LoginScreen} />
+            <Stack.Screen name="ProviderRegister" component={ProviderRegisterScreen} />
           </>
         ) : (
           <>

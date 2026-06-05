@@ -7,7 +7,10 @@ import { createPaymentOrder, verifyPayment } from '../api/bookingApi';
 import type { Booking } from '../types';
 
 interface Props {
-  navigation: { navigate: (screen: string) => void; goBack: () => void };
+  navigation: {
+    navigate: (screen: string, params?: object) => void;
+    goBack: () => void;
+  };
   route: { params: { booking: Booking } };
 }
 
@@ -74,7 +77,7 @@ export default function PaymentScreen({ navigation, route }: Props) {
             <Text className="text-gray-600 mt-2">Receipt: {booking.payment?.receiptNumber || 'Generated on payment'}</Text>
             <Button
               title="View Bookings"
-              onPress={() => navigation.navigate('BookingHistory')}
+              onPress={() => navigation.navigate('Main', { screen: 'Bookings' })}
               className="mt-4"
             />
           </Card>
