@@ -26,17 +26,19 @@ graphify-out/cost.json
 graphify-out/cache/
 graphify-out/graph.html
 
-# Other AI IDE clutter (keep Graphify — see .cursor/rules/graphify.mdc)
+# Claude / generic AI agent files (local only — never push)
 .claude/
+**/.claude/
+CLAUDE.md
+**/CLAUDE.md
+AGENTS.md
+**/AGENTS.md
+RESUME_TOMORROW.md
+mobile/START_APP.md
+
+# Cursor extras (keep .cursor/rules/graphify.mdc)
 .cursor/rules/token-minimization.mdc
 .cursorignore
-AGENTS.md
-CLAUDE.md
-RESUME_TOMORROW.md
-mobile/AGENTS.md
-mobile/CLAUDE.md
-mobile/.claude/
-mobile/START_APP.md
 
 # OS
 Thumbs.db
