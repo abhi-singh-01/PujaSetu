@@ -93,8 +93,9 @@ Optional semantic extract for docs/PDFs: set `GEMINI_API_KEY` or `ANTHROPIC_API_
 
 ## Quick Start (Docker — recommended)
 
+From the repo root:
+
 ```bash
-cd backend
 docker compose up -d --build
 ```
 
@@ -107,6 +108,21 @@ Swagger: `http://localhost:5000/swagger-ui.html`
 | MongoDB | 27017 |
 
 Stop: `docker compose down`
+
+### Production Docker deploy
+
+```bash
+cp .env.docker.example .env
+# Set JWT_SECRET, CLIENT_URL, MONGODB_URI in .env
+
+# Atlas / external MongoDB:
+docker compose -f docker-compose.prod.yml up -d --build
+
+# Or self-hosted Mongo on the same server:
+docker compose -f docker-compose.prod.yml --profile with-db up -d --build
+```
+
+See `backend/README.md` for full deployment steps (Render, Railway, VPS).
 
 ### Payment flow
 
@@ -135,13 +151,11 @@ Stop: `docker compose down`
 
 ```powershell
 cd backend
-cp .env.example .env
-$env:MONGODB_URI="mongodb://localhost:27017/pujasetu"
-$env:JWT_SECRET="your-super-secret-jwt-key-change-in-production-min-32-chars"
-$env:DEV_OTP_BYPASS="true"
-$env:SEED_ENABLED="true"
-mvn spring-boot:run
+copy .env.example .env
+.\run-dev.ps1
 ```
+
+Or with Docker: `docker compose up -d --build` (reads `backend/.env` automatically).
 
 Seed runs automatically when `SEED_ENABLED=true` and the database is empty.
 
@@ -158,7 +172,8 @@ Seed runs automatically when `SEED_ENABLED=true` and the database is empty.
 
 ```bash
 cd mobile
-cp .env.example .env
+copy .env.example .env
+# Edit .env: set EXPO_PUBLIC_API_URL to your PC LAN IP for physical phone
 npm install
 npm run start:clear
 ```
@@ -223,13 +238,17 @@ EXPO_PUBLIC_API_URL=http://10.0.2.2:5000/api
 
 ## Deployment
 
-### Backend (Railway / Render / AWS)
+### Backend (Docker / Railway / Render / VPS)
+
+**Docker (recommended):** use `docker-compose.prod.yml` at repo root — see Quick Start above.
+
+**PaaS without Docker:**
 
 1. Set root directory to `backend`
 2. Build: `mvn -DskipTests clean package`
 3. Start: `java -jar target/pujasetu-backend-1.0.0.jar`
 4. Set `MONGODB_URI`, `JWT_SECRET`, `RAZORPAY_*`, `TWILIO_*`, `CLIENT_URL`
-5. Set `DEV_OTP_BYPASS=false` in production
+5. Set `SPRING_PROFILES_ACTIVE=prod` and `DEV_OTP_BYPASS=false`
 6. Health check: `/api/health`
 
 See `backend/README.md` for full deployment steps.

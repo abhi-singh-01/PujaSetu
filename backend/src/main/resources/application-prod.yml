@@ -1,0 +1,21 @@
+springdoc:
+  api-docs:
+    enabled: false
+  swagger-ui:
+    enabled: false
+
+management:
+  endpoint:
+    health:
+      show-details: never
+
+logging:
+  level:
+    root: WARN
+    com.pujasetu: INFO
+
+pujasetu:
+  otp:
+    dev-bypass: false
+  seed:
+    enabled: false

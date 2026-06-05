@@ -1,3 +1,10 @@
+# Local / dev full stack (API + MongoDB with seed data).
+# From repo root:
+#   docker compose up -d --build
+#
+# API: http://localhost:5000/api/health
+# Swagger: http://localhost:5000/swagger-ui.html
+
 services:
   mongodb:
     image: mongo:7
@@ -15,14 +22,24 @@ services:
       start_period: 10s
 
   api:
-    build: .
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    image: pujasetu-api:dev
     container_name: pujasetu-api
     restart: unless-stopped
-    env_file: .env
     ports:
-      - "${PORT:-5000}:5000"
+      - "${API_PORT:-5000}:5000"
     environment:
+      PORT: 5000
       MONGODB_URI: mongodb://mongodb:27017/pujasetu
+      JWT_SECRET: ${JWT_SECRET:-pujasetu-docker-dev-secret-min-32-characters-long}
+      DEV_OTP_BYPASS: "true"
+      DEV_OTP_CODE: "123456"
+      ADVANCE_PAYMENT_PERCENT: "15"
+      COMPLETION_OTP_EXPIRY_MINUTES: "30"
+      SEED_ENABLED: "true"
+      CLIENT_URL: ${CLIENT_URL:-http://localhost:8081,http://localhost:19006,http://10.0.2.2:8081}
     depends_on:
       mongodb:
         condition: service_healthy

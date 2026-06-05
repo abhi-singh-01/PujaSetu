@@ -11,6 +11,7 @@ node_modules/
 **/.env
 backend/.env
 mobile/.env
+!.env.docker.example
 
 # Build / cache
 .expo/

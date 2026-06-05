@@ -24,12 +24,11 @@ Production-ready Spring Boot 3.x backend for the PujaSetu platform — book veri
 
 ```powershell
 cd backend
-$env:MONGODB_URI="mongodb://localhost:27017/pujasetu"
-$env:JWT_SECRET="your-super-secret-jwt-key-change-in-production-min-32-chars"
-$env:DEV_OTP_BYPASS="true"
-$env:SEED_ENABLED="true"
-mvn spring-boot:run
+copy .env.example .env
+.\run-dev.ps1
 ```
+
+`run-dev.ps1` loads `backend/.env` into the process (Spring Boot does not read `.env` files on its own).
 
 API: `http://localhost:5000/api`  
 Swagger UI: `http://localhost:5000/swagger-ui.html`
@@ -132,14 +131,86 @@ com.pujasetu
 
 ## Docker
 
+### Local dev (API + MongoDB + seed data)
+
+From repo root:
+
 ```powershell
-cd backend
 docker compose up -d --build
 ```
 
-Or build the image directly:
+Or from `backend/`:
 
 ```powershell
-docker build -t pujasetu-api .
-docker run -p 5000:5000 -e MONGODB_URI=mongodb://host.docker.internal:27017/pujasetu pujasetu-api
+docker compose up -d --build
 ```
+
+| Service | URL |
+|---------|-----|
+| API health | `http://localhost:5000/api/health` |
+| Actuator | `http://localhost:5000/actuator/health` |
+| Swagger | `http://localhost:5000/swagger-ui.html` |
+
+Dev OTP bypass is enabled; test accounts are seeded on first run.
+
+Stop and remove containers:
+
+```powershell
+docker compose down
+```
+
+### Production deploy
+
+1. Copy env template and set secrets (from repo root or `backend/`):
+
+```powershell
+# From repo root:
+cp .env.docker.example .env
+
+# Or from backend/:
+cp ../.env.docker.example .env
+```
+
+Edit `JWT_SECRET`, `CLIENT_URL`, and `MONGODB_URI`.
+
+2. **Option A — MongoDB Atlas (recommended)**
+
+Set `MONGODB_URI` in `.env`, then from repo root:
+
+```powershell
+docker compose -f docker-compose.prod.yml up -d --build
+```
+
+3. **Option B — Self-hosted MongoDB on same VPS**
+
+```powershell
+docker compose -f docker-compose.prod.yml --profile with-db up -d --build
+```
+
+4. Point the mobile app at your server:
+
+```
+EXPO_PUBLIC_API_URL=https://your-domain.com/api
+```
+
+### Build image only
+
+```powershell
+docker build -t pujasetu-api:latest .
+docker run -p 5000:5000 \
+  -e MONGODB_URI=mongodb://host.docker.internal:27017/pujasetu \
+  -e JWT_SECRET=your-production-secret-min-32-chars \
+  -e SPRING_PROFILES_ACTIVE=prod \
+  -e DEV_OTP_BYPASS=false \
+  -e CLIENT_URL=https://your-app.com \
+  pujasetu-api:latest
+```
+
+### Deploy to any VPS (DigitalOcean, AWS EC2, etc.)
+
+1. Install Docker + Docker Compose on the server.
+2. Clone the repo and `cd` into it.
+3. Create `.env` from `.env.docker.example`.
+4. Run production compose (with or without `--profile with-db`).
+5. Put **nginx** or **Caddy** in front for HTTPS, or use a platform load balancer.
+6. Health check path for load balancers: `/api/health` or `/actuator/health`.

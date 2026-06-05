@@ -5,6 +5,7 @@ import Input from '../components/Input';
 import Button from '../components/Button';
 import { useAppDispatch } from '../hooks/useAppDispatch';
 import { sendOtp, loginWithOtp, clearError } from '../store/authSlice';
+import { getErrorMessage } from '../utils/errors';
 
 interface Props {
   navigation: { navigate: (screen: string) => void };
@@ -30,7 +31,7 @@ export default function LoginScreen({ navigation }: Props) {
       setStep('otp');
       Alert.alert('OTP Sent', 'Use 123456 in development mode');
     } catch (e: unknown) {
-      Alert.alert('Error', (e as Error).message);
+      Alert.alert('Error', getErrorMessage(e, 'Failed to send OTP'));
     } finally {
       setLoading(false);
     }
@@ -52,7 +53,7 @@ export default function LoginScreen({ navigation }: Props) {
         })
       ).unwrap();
     } catch (e: unknown) {
-      Alert.alert('Login failed', (e as Error).message);
+      Alert.alert('Login failed', getErrorMessage(e, 'OTP verification failed'));
     } finally {
       setLoading(false);
     }
@@ -64,7 +65,11 @@ export default function LoginScreen({ navigation }: Props) {
         behavior={Platform.OS === 'ios' ? 'padding' : undefined}
         className="flex-1"
       >
-        <ScrollView contentContainerClassName="flex-grow justify-center px-6 py-12">
+        <ScrollView
+          contentContainerClassName="flex-grow justify-center px-6 py-12"
+          keyboardShouldPersistTaps="handled"
+          keyboardDismissMode="on-drag"
+        >
           <View className="items-center mb-10">
             <Text className="text-5xl mb-2">🪔</Text>
             <Text className="text-3xl font-bold text-white">PujaSetu</Text>

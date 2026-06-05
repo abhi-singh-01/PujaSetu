@@ -1,12 +1,12 @@
 import React from 'react';
 import {
-  TouchableOpacity,
+  Pressable,
   Text,
   ActivityIndicator,
-  TouchableOpacityProps,
+  PressableProps,
 } from 'react-native';
 
-interface ButtonProps extends TouchableOpacityProps {
+interface ButtonProps extends PressableProps {
   title: string;
   variant?: 'primary' | 'outline' | 'ghost';
   loading?: boolean;
@@ -22,7 +22,7 @@ export default function Button({
   className = '',
   ...props
 }: ButtonProps & { className?: string }) {
-  const base = 'rounded-xl items-center justify-center flex-row';
+  const base = 'rounded-xl items-center justify-center flex-row cursor-pointer';
   const sizes = { sm: 'py-2 px-4', md: 'py-3.5 px-6', lg: 'py-4 px-8' };
   const variants = {
     primary: 'bg-saffron-500',
@@ -36,10 +36,10 @@ export default function Button({
   };
 
   return (
-    <TouchableOpacity
+    <Pressable
       className={`${base} ${sizes[size]} ${variants[variant]} ${disabled || loading ? 'opacity-50' : ''} ${className}`}
       disabled={disabled || loading}
-      activeOpacity={0.8}
+      accessibilityRole="button"
       {...props}
     >
       {loading ? (
@@ -47,6 +47,6 @@ export default function Button({
       ) : (
         <Text className={`${textVariants[variant]} text-base`}>{title}</Text>
       )}
-    </TouchableOpacity>
+    </Pressable>
   );
 }

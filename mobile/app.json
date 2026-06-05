@@ -7,11 +7,6 @@
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "scheme": "pujasetu",
-    "splash": {
-      "image": "./assets/splash-icon.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#FF8C00"
-    },
     "ios": {
       "supportsTablet": true,
       "bundleIdentifier": "com.pujasetu.app",
@@ -36,6 +31,14 @@
       ]
     },
     "plugins": [
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/splash-icon.png",
+          "resizeMode": "contain",
+          "backgroundColor": "#FF8C00"
+        }
+      ],
       "expo-location",
       "expo-image-picker",
       [
@@ -44,7 +47,8 @@
           "icon": "./assets/icon.png",
           "color": "#FF8C00"
         }
-      ]
+      ],
+      "expo-font"
     ],
     "extra": {
       "eas": {
